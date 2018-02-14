@@ -1,0 +1,3004 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    /opt/fme-desktop-2017/fme /home/justin/Documents/FMEWorkspace/data/inReachOnly.fmw
+#          --SourceDataset_OGCKML_8 "http://bit.ly/2z75naZ" "http://bit.ly/2juRkVY" "http://bit.ly/2huJ3Nf" "http://bit.ly/2AOpbgJ"
+#    
+#    
+#!   DESTINATION_ROUTING_FILE=""
+#!   REDIRECT_TERMINATORS="NONE"
+#!   BEGIN_PYTHON=""
+#!   MARKDOWN_DESCRIPTION=""
+#!   BEGIN_TCL=""
+#!   LAST_SAVE_DATE="2018-01-03T13:30:57"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   DOC_TOP_LEFT="-3821.66 -2522.39"
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   USE_MARKDOWN=""
+#!   DESTINATION="NONE"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   SOURCE_ROUTING_FILE=""
+#!   USAGE=""
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="76"
+#!   VIEW_POSITION="-1492.12 -927.641"
+#!   FME_SERVER_SERVICES=""
+#!   END_TCL=""
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - linux-x64)"
+#!   END_PYTHON=""
+#!   SHOW_INFO_NODES="true"
+#!   FME_DOCUMENT_PRIORGUID="6a42f680-d93c-11e7-b954-fcaa1455271e,bc13d39e-d93c-11e7-b954-fcaa1455271e,f7b0d426-d93f-11e7-b954-fcaa1455271e,1b6a0386-d947-11e7-b954-fcaa1455271e,f2c9613e-d94a-11e7-b954-fcaa1455271e,1f9e4360-d94f-11e7-b954-fcaa1455271e,6745dd4a-d94f-11e7-b954-fcaa1455271e,1ef273ca-d9fc-11e7-8a9d-fcaa1455271e,60b462d4-da04-11e7-8a9d-fcaa1455271e,0e5c0416-da08-11e7-8a9d-fcaa1455271e,80a92a78-e226-11e7-8f5b-fcaa1455271e,b5fdcc24-e226-11e7-8f5b-fcaa1455271e,153df50a-e228-11e7-8f5b-fcaa1455271e,622000fc-e228-11e7-8f5b-fcaa1455271e,da0cd474-eb37-11e7-acf8-fcaa1455271e"
+#!   IGNORE_READER_FAILURE="No"
+#!   PASSWORD=""
+#!   DESCRIPTION=""
+#!   PYTHON_COMPATIBILITY="27"
+#!   TERMINATE_REJECTED="NO"
+#!   MARKDOWN_USAGE=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   SHOW_ANNOTATIONS="true"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   CATEGORY=""
+#!   SOURCE="NONE"
+#!   TITLE=""
+#!   FME_BUILD_NUM="17539"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_DOCUMENT_GUID="e4dd2dea-f0b4-11e7-975c-fcaa1455271e"
+#!   DOC_EXTENTS="6239.14 2738.51"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   HISTORY=""
+#!   LOG_FILE=""
+#! >
+#! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="OGCKML"
+#!   DATASET="$(SourceDataset_OGCKML_8)"
+#!   KEYWORD="OGCKML_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="kml_raw_text kml_buffer kml_link_href kml_buffer kml_imagepyramid_gridorigin kml_buffer kml_viewvolume_topfov kml_int16 kml_orientation_tilt kml_real64 kml_polystyle_outline kml_int16 kml_style_url_highlight kml_buffer kml_gx_latlonaltbox_altitude_mode kml_char(50) kml_document kml_buffer kml_camera_altitude kml_real64 kml_liststyle_list_item_type kml_char(50) kml_target_style_highlight kml_buffer kml_link_view_refresh_mode kml_char(50) kml_overlayxy_yunits kml_char(20) kml_create_info_point kml_char(3) kml_viewvolume_rightfov kml_int16 kml_latlonbox_rotation kml_real64 kml_schema_data{}.name kml_buffer kml_shape kml_buffer kml_link_name kml_buffer kml_data{}.value kml_buffer kml_lod_min_fade_extent kml_real64 kml_style_url_normal kml_buffer kml_link_view_refresh_time kml_int16 kml_icon_view_format kml_buffer kml_labelstyle_color_mode kml_char(20) kml_atom_author_email kml_buffer kml_icon_http_query kml_buffer kml_liststyle_item_icon kml_buffer kml_target_href kml_buffer kml_id kml_buffer kml_link_refresh_interval kml_real64 kml_liststyle_item_icon{}.state kml_char(50) multi_reader_keyword kml_char(50) kml_balloonstyle_raw_text kml_buffer kml_atom_link_href kml_buffer kml_tour_stop_view_tilt kml_char(25) kml_labelstyle_scale kml_real64 kml_link_refresh_mode kml_char(50) kml_altitude kml_real64 kml_tour_stop_display_balloon kml_char(3) kml_rotationxy_x kml_real64 kml_balloon_text_opacity kml_real64 kml_latlonaltbox_altitude_mode kml_char(50) kml_size_x kml_real64 kml_latlonaltbox_north kml_real64 kml_lookat_range kml_real64 kml_camera_gx_timespan_end kml_datetime kml_open kml_int16 kml_imagepyramid_maxwidth kml_int16 kml_viewvolume_near kml_int16 fme_opacity kml_real64 kml_size_y kml_real64 kml_iconstyle_color_mode kml_char(20) kml_rotationxy_yunits kml_char(20) kml_gx_duration kml_int16 kml_snippet_raw_text kml_buffer kml_latlonaltbox_max_altitude kml_real64 kml_overlayxy_x kml_real64 kml_cookie kml_buffer kml_icon_view_refresh_time kml_int16 kml_icon_view_refresh_mode kml_char(50) kml_style_url kml_buffer kml_lookat_gx_timestamp_when kml_datetime kml_lookat_tilt kml_real64 kml_camera_gx_timestamp_when kml_datetime kml_size_xunits kml_char(20) kml_tessellate kml_int16 kml_location_altitude kml_real64 kml_min_refresh_period kml_real64 kml_lookat_latitude kml_real64 kml_location_longitude kml_real64 kml_size_yunits kml_char(20) kml_iconstyle_heading kml_real64 kml_overlayxy_xunits kml_char(20) kml_linestyle_label_visibility kml_boolean kml_gx_lookat_altitude_mode kml_char(50) kml_fly_to_view kml_int16 kml_screenxy_x kml_real64 kml_gx_altitude_mode kml_char(50) kml_link_snippet_max_lines kml_int16 kml_lod_min_lod_pixels kml_real64 kml_hotspot_x kml_int16 kml_location_latitude kml_real64 kml_orientation_heading kml_real64 kml_icon kml_buffer kml_snippet kml_buffer kml_gx_timespan_begin kml_datetime kml_imagepyramid_maxheight kml_int16 kml_description_text kml_buffer multi_reader_id kml_int32 kml_iconstyle_scale kml_real64 kml_lod_max_fade_extent kml_real64 kml_extended_data_xmlns_prefix kml_buffer kml_draw_order kml_int16 kml_tour_stop_flyto_mode kml_char(20) kml_scale_y kml_real64 kml_gx_timespan_end kml_datetime kml_latlonaltbox_east kml_char(255) kml_latlonaltbox_west kml_real64 fme_primary_axis kml_real64 kml_linestyle_color kml_char(10) kml_hotspot_xunits kml_char(20) kml_liststyle_item_icon{}.href kml_buffer kml_common_style kml_buffer kml_extended_data_xmlns_url kml_buffer kml_style_id kml_buffer kml_document_href kml_buffer kml_balloon_opacity kml_real64 kml_description kml_buffer kml_viewvolume_leftfov kml_int16 kml_camera_latitude kml_real64 kml_rotationxy_y kml_real64 kml_linestyle_physical_width kml_real64 kml_atom_link_rel kml_buffer multi_reader_full_id kml_int32 fme_color kml_char(50) kml_document_path kml_buffer kml_tour_stop_delay_type kml_char(10) kml_camera_roll kml_real64 kml_screenxy_y kml_real64 kml_target_style_normal kml_buffer fme_fill_opacity kml_real64 kml_extrude kml_int16 kml_lod_max_lod_pixels kml_real64 fme_basename kml_char(50) kml_lookat_altitude kml_real64 kml_balloonstyle_text kml_buffer kml_lookat_altitude_mode kml_char(20) kml_expires kml_datetime kml_altitude_mode kml_char(50) kml_tour_stop_flyto_duration kml_int16 fme_text_string kml_char(50) kml_polystyle_color_mode kml_char(20) kml_rotationxy_xunits kml_char(20) kml_labelstyle_color kml_char(10) kml_hotspot_yunits kml_char(20) kml_icon_refresh_interval kml_int16 kml_screenxy_yunits kml_char(20) kml_latlonaltbox_south kml_real64 kml_latlonbox_east kml_real64 kml_polystyle_color kml_char(10) kml_screenxy_xunits kml_char(20) fme_pen_opacity kml_real64 kml_link_snippet kml_buffer kml_parent kml_buffer kml_camera_altitude_mode kml_char(50) kml_timespan_end kml_datetime kml_lookat_longitude kml_real64 kml_scale_z kml_real64 fme_sweep_angle kml_real64 fme_secondary_axis kml_real64 kml_link_view_bound_scale kml_real64 kml_timestamp_when kml_datetime kml_linestyle_color_mode kml_char(20) kml_attribute_table_title kml_buffer kml_icon_temp_file_location kml_buffer fme_text_size kml_real64 kml_camera_tilt kml_real64 kml_data{}.name kml_buffer kml_latlonbox_south kml_real64 kml_tour_stop_view_perspective kml_char(15) kml_icon_refresh_mode kml_char(50) kml_target_style kml_buffer kml_overlayxy_y kml_real64 kml_gx_balloon_visibility kml_int16 kml_address kml_buffer kml_sort_value kml_buffer kml_tour_stop_view_heading kml_char(25) kml_gx_timestamp_when kml_datetime kml_label_color kml_char(50) kml_data{}.display_name_raw_text kml_buffer kml_atom_author_name kml_buffer kml_balloonstyle_text_color kml_char(10) kml_lookat_gx_timespan_begin kml_datetime kml_camera_longitude kml_real64 kml_label_opacity kml_real64 kml_schema_data{}.value kml_buffer kml_gx_flyto_mode kml_char(10) kml_latlonbox_north kml_real64 kml_rotation kml_real64 kml_name kml_buffer kml_color kml_char(8) fme_geometry fme_char(50) kml_visibility kml_int16 kml_description_raw_text kml_buffer fme_rotation kml_real64 fme_feature_type kml_char(50) fme_dataset kml_char(50) kml_hotspot_y kml_int16 multi_reader_type kml_char(50) kml_tour_stop_delay_duration kml_int16 kml_max_session_length kml_real64 kml_icon_view_bound_scale kml_real64 kml_animated_update kml_buffer kml_latlonbox_west kml_real64 kml_refresh_visibility kml_int16 kml_link_description kml_buffer kml_balloon_color kml_char(10) kml_roll kml_real64 kml_schema_url kml_buffer kml_balloon_text_color kml_char(10) kml_iconstyle_color kml_char(10) kml_camera_gx_timespan_begin kml_datetime kml_tour kml_buffer kml_latlonaltbox_min_altitude kml_real64 kml_imagepyramid_tilesize kml_real64 fme_start_angle kml_real64 kml_lookat_gx_timespan_end kml_datetime kml_href kml_buffer kml_update_mode kml_char(10) kml_gx_camera_altitude_mode kml_char(50) kml_viewvolume_bottomfov kml_int16 kml_tour_stop_view_range kml_char(25) kml_liststyle_bgcolor kml_char(50) kml_orientation_roll kml_real64 kml_gx_play_mode kml_char(20) kml_extended_data_xml kml_buffer kml_link_http_query kml_buffer kml_balloonstyle_bgcolor kml_char(10) kml_icon_href kml_buffer kml_icon_opacity kml_real64 kml_message kml_buffer kml_icon_color kml_char(50) fme_fill_color kml_char(50) kml_phone_number kml_buffer fme_type kml_char(50) kml_polystyle_fill kml_real64 kml_link_view_format kml_buffer kml_scale_x kml_real64 kml_camera_heading kml_real64 kml_data{}.display_name kml_buffer kml_timespan_begin kml_datetime kml_tour_stop_tour_name kml_buffer kml_tour_stop_tour_duration kml_int16 kml_lookat_heading kml_real64 kml_linestyle_width kml_real64"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE_OR_URL"
+#!   GENERATE_FME_BUILD_NUM="17539"
+#!   COORDSYS=""
+#!   START_FEATURE=""
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
+#!   MIN_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="kml file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the Google Earth KML File"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="ALWAYS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="KML21_RASTER_COMPRESSION_LEVEL OGCKML_IN_KML21_APPLY_MODEL_TRANSFORMS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="SUPPORTS_ESTABLISHED_CACHE"
+#!   VALUE="YES"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE=".kml application/vnd.google-earth.kml+xml .kmz application/vnd.google-earth.kmz ADD_DISPOSITION"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Google Earth KML file(s)"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#!   DATASET=""
+#!   KEYWORD="ARCGISONLINEFEATURES_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="arcgisonline_type {FME_GEN_GEOMETRY} arcgisonline_sql_where_clause &quot;&quot; arcgisonline_input_geometry &quot;&quot; arcgisonline_input_geometry_type esriGeometryEnvelope arcgisonline_spatial_relationship esriSpatialRelIntersects arcgisonline_distance &quot;&quot; arcgisonline_units esriSRUnit_Meter arcgisonline_include_attachments NO"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_basename esriFieldTypeString(50) fme_start_angle esriFieldTypeDouble fme_geometry fme_char(50) arcgisonline_globalid esriFieldTypeString(254) arcgisonline_attachment{}.name esriFieldTypeString(254) fme_dataset esriFieldTypeString(50) multi_reader_keyword esriFieldTypeString(50) fme_secondary_axis esriFieldTypeDouble fme_sweep_angle esriFieldTypeDouble arcgisonline_attachment{}.content_type esriFieldTypeString(254) arcgisonline_objectid esriFieldTypeInteger arcgisonline_attachment{}.size esriFieldTypeInteger multi_reader_type esriFieldTypeString(50) fme_text_string esriFieldTypeString(50) fme_color esriFieldTypeString(50) fme_type esriFieldTypeString(50) fme_text_size esriFieldTypeDouble arcgisonline_attachment{}.id esriFieldTypeInteger arcgisonline_attachment{}.globalid esriFieldTypeString(254) fme_fill_color esriFieldTypeString(50) multi_reader_id esriFieldTypeInteger fme_rotation esriFieldTypeDouble multi_reader_full_id esriFieldTypeInteger fme_primary_axis esriFieldTypeDouble arcgisonline_attachment{}.data esriFieldTypeString(254) arcgisonline_type esriFieldTypeString(254) fme_feature_type esriFieldTypeString(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP arcgisonline_reader_group arcgisonline_sql_where_clause%arcgisonline_input_geometry%arcgisonline_input_geometry_type%arcgisonline_spatial_relationship%arcgisonline_distance%arcgisonline_units%arcgisonline_include_attachments Layer&quot; &quot;&quot; &quot;GUI OPTIONAL STRING_ENCODED arcgisonline_sql_where_clause WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL STRING_ENCODED arcgisonline_input_geometry Input Geometry&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE_ENCODED arcgisonline_input_geometry_type Envelope,esriGeometryEnvelope%Point,esriGeometryPoint%Polyline,esriGeometryPolyline%Polygon,esriGeometryPolygon%Multipoint,esriGeometryMultipoint Input Geometry Type&quot; esriGeometryEnvelope &quot;GUI LOOKUP_CHOICE_ENCODED arcgisonline_spatial_relationship Intersects,esriSpatialRelIntersects%Contains,esriSpatialRelContains%Crosses,esriSpatialRelCrosses%Envelope&lt;space&gt;Intersects,esriSpatialRelEnvelopeIntersects%Index&lt;space&gt;Intersects,esriSpatialRelIndexIntersects%Overlaps,esriSpatialRelOverlaps%Touches,esriSpatialRelTouches%Within,esriSpatialRelWithin Spatial Relationship&quot; esriSpatialRelIntersects &quot;GUI OPTIONAL FLOAT arcgisonline_distance Distance&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE_ENCODED arcgisonline_units Meters,esriSRUnit_Meter%Miles,esriSRUnit_StatuteMile%Feet,esriSRUnit_Foot%Kilometers,esriSRUnit_Kilometer%Nautical&lt;space&gt;Miles,esriSRUnit_NauticalMile%US&lt;space&gt;Nautical&lt;space&gt;Miles,esriSRUnit_USNauticalMile Units&quot; esriSRUnit_Meter &quot;GUI LOOKUP_CHOICE_ENCODED arcgisonline_include_attachments Yes,YES%No,NO Include Attachments&quot; NO "
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="NONE"
+#!   GENERATE_FME_BUILD_NUM="17539"
+#!   COORDSYS=""
+#!   START_FEATURE=""
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
+#!   MIN_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="ARCGISONLINEFEATURES_IN_FEATURES_PER_REQUEST ARCGISONLINEFEATURES_OUT_FEATURES_PER_REQUEST ARCGISONLINEFEATURES_OUT_USE_GLOBAL_ID"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Layer1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Layer"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#!   DATASET=""
+#!   KEYWORD="ARCGISONLINEFEATURES_3"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="arcgisonline_type {FME_GEN_GEOMETRY} arcgisonline_mode INSERT arcgisonline_truncate_layer NO"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_basename esriFieldTypeString(50) fme_start_angle esriFieldTypeDouble fme_geometry fme_char(50) arcgisonline_globalid esriFieldTypeString(254) arcgisonline_attachment{}.name esriFieldTypeString(254) fme_dataset esriFieldTypeString(50) fme_secondary_axis esriFieldTypeDouble fme_sweep_angle esriFieldTypeDouble arcgisonline_attachment{}.content_type esriFieldTypeString(254) arcgisonline_objectid esriFieldTypeInteger arcgisonline_attachment{}.size esriFieldTypeInteger fme_text_string esriFieldTypeString(50) fme_color esriFieldTypeString(50) fme_type esriFieldTypeString(50) fme_text_size esriFieldTypeDouble arcgisonline_attachment{}.id esriFieldTypeInteger arcgisonline_attachment{}.globalid esriFieldTypeString(254) fme_fill_color esriFieldTypeString(50) fme_rotation esriFieldTypeDouble fme_primary_axis esriFieldTypeDouble arcgisonline_attachment{}.data esriFieldTypeString(254) arcgisonline_type esriFieldTypeString(254) fme_feature_type esriFieldTypeString(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP arcgisonline_layer_group arcgisonline_mode%arcgisonline_truncate_layer%arcgisonline_rollback_on_failure Layer&quot; &quot;&quot; &quot;GUI FORCE_DEFS WHOLE_LINE CHOICE arcgisonline_mode INSERT%UPDATE%DELETE Writer Mode&quot; INSERT &quot;GUI CHOICE arcgisonline_truncate_layer YES%NO Truncate First&quot; NO "
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="NONE"
+#!   GENERATE_FME_BUILD_NUM="17539"
+#!   COORDSYS=""
+#!   FANOUT_EXPRESSION=""
+#!   FANOUT_GROUP="NO"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="ARCGISONLINEFEATURES_IN_FEATURES_PER_REQUEST ARCGISONLINEFEATURES_OUT_FEATURES_PER_REQUEST ARCGISONLINEFEATURES_OUT_USE_GLOBAL_ID"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Layer1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Layer"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#!   DATASET=""
+#!   KEYWORD="ARCGISONLINEFEATURES_4"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="arcgisonline_type {FME_GEN_GEOMETRY} arcgisonline_mode INSERT arcgisonline_truncate_layer NO"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_basename esriFieldTypeString(50) fme_start_angle esriFieldTypeDouble fme_geometry fme_char(50) arcgisonline_globalid esriFieldTypeString(254) arcgisonline_attachment{}.name esriFieldTypeString(254) fme_dataset esriFieldTypeString(50) fme_secondary_axis esriFieldTypeDouble fme_sweep_angle esriFieldTypeDouble arcgisonline_attachment{}.content_type esriFieldTypeString(254) arcgisonline_objectid esriFieldTypeInteger arcgisonline_attachment{}.size esriFieldTypeInteger fme_text_string esriFieldTypeString(50) fme_color esriFieldTypeString(50) fme_type esriFieldTypeString(50) fme_text_size esriFieldTypeDouble arcgisonline_attachment{}.id esriFieldTypeInteger arcgisonline_attachment{}.globalid esriFieldTypeString(254) fme_fill_color esriFieldTypeString(50) fme_rotation esriFieldTypeDouble fme_primary_axis esriFieldTypeDouble arcgisonline_attachment{}.data esriFieldTypeString(254) arcgisonline_type esriFieldTypeString(254) fme_feature_type esriFieldTypeString(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP arcgisonline_layer_group arcgisonline_mode%arcgisonline_truncate_layer%arcgisonline_rollback_on_failure Layer&quot; &quot;&quot; &quot;GUI FORCE_DEFS WHOLE_LINE CHOICE arcgisonline_mode INSERT%UPDATE%DELETE Writer Mode&quot; INSERT &quot;GUI CHOICE arcgisonline_truncate_layer YES%NO Truncate First&quot; NO "
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="NONE"
+#!   GENERATE_FME_BUILD_NUM="17539"
+#!   COORDSYS=""
+#!   FANOUT_EXPRESSION=""
+#!   FANOUT_GROUP="NO"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="ARCGISONLINEFEATURES_IN_FEATURES_PER_REQUEST ARCGISONLINEFEATURES_OUT_FEATURES_PER_REQUEST ARCGISONLINEFEATURES_OUT_USE_GLOBAL_ID"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Layer1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Layer"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeInteger"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeInteger"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeInteger"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeInteger"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeSmallInteger"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeInteger"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeSmallInteger"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeSingle"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeDouble"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeDate"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeDate"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeDate"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeString(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeString(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeString(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeString(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeString(254)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeString(254)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeString(254)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeString(254)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeString"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeOID"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeDouble"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeSmallInteger"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeGUID(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="esriFieldTypeGlobalID(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(255)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(255)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(255)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(255)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_buffer"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_time"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_int16"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_int16"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_int16"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_int32"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_int32"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_real32"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_real64"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_real64"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_real64"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(20)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_char(20)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_boolean"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeInteger"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeInteger"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeInteger"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeInteger"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeSmallInteger"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeInteger"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeSmallInteger"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeSingle"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeDouble"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeDate"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeDate"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeDate"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeString(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeString(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeString(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeString(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeString(254)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeString(254)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeString(254)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeString(254)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeString"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeOID"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeDouble"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeSmallInteger"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeGUID(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="esriFieldTypeGlobalID(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="arcgisonline_no_geom"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="arcgisonline_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="arcgisonline_multipoint"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="arcgisonline_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="arcgisonline_polyline"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="arcgisonline_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="arcgisonline_polygon"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="arcgisonline_polygon"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="arcgisonline_no_geom"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="arcgisonline_no_geom"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="arcgisonline_no_geom"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="arcgisonline_no_geom"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="arcgisonline_polygon"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="arcgisonline_polyline"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="arcgisonline_no_geom"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="arcgisonline_no_geom"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_no_geom"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_aggregate"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_raster"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_surface"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_solid"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_line"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="kml_no_geom"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="arcgisonline_no_geom"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="arcgisonline_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="arcgisonline_multipoint"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="arcgisonline_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="arcgisonline_polyline"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="arcgisonline_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="arcgisonline_polygon"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="arcgisonline_polygon"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="arcgisonline_no_geom"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="arcgisonline_no_geom"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="arcgisonline_no_geom"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="arcgisonline_no_geom"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="arcgisonline_polygon"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="arcgisonline_polyline"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="arcgisonline_no_geom"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="arcgisonline_no_geom"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="ARCGISONLINEFEATURES"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="Location Tracking"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="5"
+#!   FEAT_GEOMTYPE="arcgisonline_point"
+#!   POSITION="1987.48 -395.702"
+#!   BOUNDING_RECT="1987.48 -395.702 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="false"
+#!   KEYWORD="ARCGISONLINEFEATURES_3"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="device" ATTR_TYPE="esriFieldTypeString(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="name" ATTR_TYPE="esriFieldTypeString(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="foreign_pk" ATTR_TYPE="esriFieldTypeString(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="course" ATTR_TYPE="esriFieldTypeDouble" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="timeRecord" ATTR_TYPE="esriFieldTypeDate" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="arcgisonline_truncate_layer" PARM_VALUE="NO"/>
+#!     <DEFLINE_PARM PARM_NAME="arcgisonline_layer_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="arcgisonline_mode" PARM_VALUE="INSERT"/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Placemark"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="18"
+#!   FEAT_GEOMTYPE="kml_no_geom kml_point kml_line kml_area kml_aggregate kml_surface kml_solid"
+#!   POSITION="-3729.66 -346.61"
+#!   BOUNDING_RECT="-3729.66 -346.61 776.009 71"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="OGCKML_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER="*"
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{0}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{1}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{2}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{3}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{4}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{5}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{6}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{7}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{8}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{9}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{10}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{11}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{12}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{13}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{14}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{15}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{16}.value" ATTR_TYPE="kml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="kml_data{}.value" ATTR_TYPE="kml_buffer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Location Tracking"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="43"
+#!   FEAT_GEOMTYPE="arcgisonline_point"
+#!   POSITION="-579.386 107.614"
+#!   BOUNDING_RECT="-579.386 107.614 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="ARCGISONLINEFEATURES_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   READ_SELECT_ATTRS="true"
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="false"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="OBJECTID" ATTR_TYPE="esriFieldTypeOID" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="GlobalID" ATTR_TYPE="esriFieldTypeGlobalID(38)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="CreationDate" ATTR_TYPE="esriFieldTypeDate" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Creator" ATTR_TYPE="esriFieldTypeString(50)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="EditDate" ATTR_TYPE="esriFieldTypeDate" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Editor" ATTR_TYPE="esriFieldTypeString(50)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="name" ATTR_TYPE="esriFieldTypeString(256)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="timeRecord" ATTR_TYPE="esriFieldTypeDate" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="course" ATTR_TYPE="esriFieldTypeDouble" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="device" ATTR_TYPE="esriFieldTypeString(256)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="foreign_pk" ATTR_TYPE="esriFieldTypeString(256)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="arcgisonline_reader_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="arcgisonline_input_geometry_type" PARM_VALUE="esriGeometryEnvelope"/>
+#!     <DEFLINE_PARM PARM_NAME="arcgisonline_spatial_relationship" PARM_VALUE="esriSpatialRelIntersects"/>
+#!     <DEFLINE_PARM PARM_NAME="arcgisonline_distance" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="arcgisonline_input_geometry" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="arcgisonline_include_attachments" PARM_VALUE="NO"/>
+#!     <DEFLINE_PARM PARM_NAME="arcgisonline_sql_where_clause" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="arcgisonline_units" PARM_VALUE="esriSRUnit_Meter"/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="Latest_Location"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="50"
+#!   FEAT_GEOMTYPE="arcgisonline_point"
+#!   POSITION="1909.53 -1025.24"
+#!   BOUNDING_RECT="1909.53 -1025.24 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="false"
+#!   KEYWORD="ARCGISONLINEFEATURES_4"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="name" ATTR_TYPE="esriFieldTypeString(256)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="timeRecord" ATTR_TYPE="esriFieldTypeDate" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="course" ATTR_TYPE="esriFieldTypeDouble" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="device" ATTR_TYPE="esriFieldTypeString(256)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="foreign_pk" ATTR_TYPE="esriFieldTypeString(256)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="timeSincePresent" ATTR_TYPE="esriFieldTypeInteger" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="arcgisonline_truncate_layer" PARM_VALUE="YES"/>
+#!     <DEFLINE_PARM PARM_NAME="arcgisonline_layer_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="arcgisonline_mode" PARM_VALUE="INSERT"/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! <SERVICES>
+#! <SERVICE
+#!   NAME="fmejobsubmitter"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="ADVANCED"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="FAILURE_TOPICS"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="HTTP_DATASET"
+#!   VALUE="OGCKML_1"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NOTIFICATION_WRITER"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="SUCCESS_TOPICS"
+#!   VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! </SERVICES>
+#! <REPOSITORY
+#!   NAME="Utilities"
+#! />
+#! <ITEM
+#!   NAME="inReachOnly.fmw"
+#! />
+#! <MODIFICATIONS>
+#! <MODIFICATION
+#!   UID=":WBDoc:SOURCE_ROUTING_FILE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_TEMP"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:SourceDataset_OGCKML_8"
+#!   VALUE="http://bit.ly/2z75naZ&quot; &quot;http://bit.ly/2juRkVY&quot; &quot;http://bit.ly/2huJ3Nf&quot; &quot;http://bit.ly/2AOpbgJ"
+#! />
+#! <MODIFICATION
+#!   UID=":WBDoc:LOG_FILE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":WBDoc:DESTINATION_ROUTING_FILE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SERVER_DEST_DIR"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_TOPIC_MESSAGE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":DatasetMgr_OGCKML_1:SourceDataset_OGCKML_1"
+#!   VALUE="$(SourceDataset_OGCKML_8)"
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_DATA"
+#!   VALUE=""
+#! />
+#! </MODIFICATIONS>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI FILE_OR_URL SourceDataset_OGCKML_8 KML_Files(*.kml;*.kmz)|*.kml;*.kmz|All_Files(*)|* Source Google KML File or URL:"
+#!   DEFAULT_VALUE="http://bit.ly/2z75naZ&quot; &quot;http://bit.ly/2juRkVY&quot; &quot;http://bit.ly/2huJ3Nf&quot; &quot;http://bit.ly/2AOpbgJ"
+#!   IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="68"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Bread crumb table&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="686.792 -60.0009"
+#!   TOP_LEFT="686.792 -60.0009"
+#!   BOTTOM_RIGHT="1148.77 -156.002"
+#!   BOUNDING_RECT="686.792 -60.0009 461.982 96.0007"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="61"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="0 0"
+#!   TOP_LEFT="0 0"
+#!   BOTTOM_RIGHT="750 -50"
+#!   BOUNDING_RECT="0 0 750 50"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="11"
+#!   NAME="Check for Updates"
+#!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="536.942 72.7966"
+#!   BOTTOM_RIGHT="1349.52 -770.203"
+#!   BOUNDING_RECT="536.942 72.7966 812.577 843"
+#!   STICKY="true"
+#!   COLOUR="0.576471,0.282353,0.486275"
+#!   CONTENTS="68 40 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="52"
+#!   NAME="inReach Reader"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="-3821.66 -238.11"
+#!   BOTTOM_RIGHT="-1110.82 -1231.88"
+#!   BOUNDING_RECT="-3821.66 -238.11 2710.84 993.765"
+#!   STICKY="true"
+#!   COLOUR="0.564706,0.156863,0.894118"
+#!   CONTENTS="44 18 29 30 33 41 42 28 26 27 45 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="53"
+#!   NAME="Write to ArcGIS"
+#!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="1875.02 -181.133"
+#!   BOTTOM_RIGHT="2417.48 -1572.95"
+#!   BOUNDING_RECT="1875.02 -181.133 542.465 1391.82"
+#!   STICKY="true"
+#!   COLOUR="0.929412,0.737255,0.803922"
+#!   CONTENTS="5 50 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="54"
+#!   NAME="Read from ArcGIS"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="-671.386 216.114"
+#!   BOTTOM_RIGHT="-75.3855 3.11423"
+#!   BOUNDING_RECT="-671.386 216.114 596 213"
+#!   STICKY="true"
+#!   COLOUR="0.0431373,0.266667,0.109804"
+#!   CONTENTS="43 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="47"
+#!   NAME="Calculates time since present"
+#!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="536.942 -938.241"
+#!   BOTTOM_RIGHT="1800.17 -1671.02"
+#!   BOUNDING_RECT="536.942 -938.241 1263.23 732.777"
+#!   STICKY="true"
+#!   COLOUR="0.858824,0.756863,0.364706"
+#!   CONTENTS="56 60 72 62 59 63 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="65"
+#!   NAME="Horrible Hack"
+#!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;I had trouble with the time zones, so I just added 420 minutes to correct the MST vs UTC issue. Will probably break around a change in daylight time savings switch.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="779.365 -1740.51"
+#!   BOTTOM_RIGHT="1638.95 -2522.39"
+#!   BOUNDING_RECT="779.365 -1740.51 859.589 781.882"
+#!   STICKY="true"
+#!   COLOUR="0.87451,0.666667,0.211765"
+#!   CONTENTS="51 "
+#! />
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="9"
+#!   TYPE="CoordinateSystemSetter"
+#!   VERSION="0"
+#!   POSITION="-831.464 -183.437"
+#!   BOUNDING_RECT="-831.464 -183.437 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="time" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CoordinateSystemSetter"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE="LL84"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="26"
+#!   TYPE="VertexCreator"
+#!   VERSION="2"
+#!   POSITION="-3632.18 -580.806"
+#!   BOUNDING_RECT="-3632.18 -580.806 523.509 71"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="kml_data{0}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{1}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{4}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{12}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="kml_data{0}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{1}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{4}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{12}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="MODE_NAME" PARM_VALUE="Add Point"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="VertexCreator_3"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="YVAL" PARM_VALUE="@Value(kml_data{8}.value)"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ZVAL" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XVAL" PARM_VALUE="@Value(kml_data{9}.value)"/>
+#!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="27"
+#!   TYPE="DateTimeConverter"
+#!   VERSION="1"
+#!   POSITION="-2042.65 -566.866"
+#!   BOUNDING_RECT="-2042.65 -566.866 646.51 71"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="time" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="time" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="IN_FORMAT" PARM_VALUE="%N&lt;solidus&gt;%e&lt;solidus&gt;%Y&lt;space&gt;%l:%M:%S&lt;space&gt;%p"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateTimeConverter_2"/>
+#!     <XFORM_PARM PARM_NAME="DATETIME_ATTR" PARM_VALUE="time"/>
+#!     <XFORM_PARM PARM_NAME="REFERENCE_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="TEST_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REFERENCE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUT_FORMAT" PARM_VALUE="ISO"/>
+#!     <XFORM_PARM PARM_NAME="TEST_INPUT_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="TEST_RESULT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REPAIR_INPUT" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="TEST_INPUT" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="28"
+#!   TYPE="StringReplacer"
+#!   VERSION="4"
+#!   POSITION="-2042.65 -1037.23"
+#!   BOUNDING_RECT="-2042.65 -1037.23 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="time" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_2"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;openbracket&gt;A-z&lt;space&gt;&lt;u00b0&gt;&lt;solidus&gt;&lt;closebracket&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="course"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="29"
+#!   TYPE="AttributeCreator"
+#!   VERSION="8"
+#!   POSITION="-3230.27 -1004.81"
+#!   BOUNDING_RECT="-3230.27 -1004.81 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="time" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; device SET_TO inReach"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="30"
+#!   TYPE="AttributeRenamer"
+#!   VERSION="4"
+#!   POSITION="-2913.97 -626.866"
+#!   BOUNDING_RECT="-2913.97 -626.866 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="time" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="kml_data&lt;opencurly&gt;4&lt;closecurly&gt;.value name RENAME_SET_DEFAULT  kml_data&lt;opencurly&gt;0&lt;closecurly&gt;.value foreign_pk RENAME_SET_DEFAULT  kml_data&lt;opencurly&gt;12&lt;closecurly&gt;.value course RENAME_SET_DEFAULT  kml_data&lt;opencurly&gt;1&lt;closecurly&gt;.value time RENAME_SET_DEFAULT "/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="36"
+#!   TYPE="AttributeRenamer"
+#!   VERSION="4"
+#!   POSITION="-81.9642 -343.437"
+#!   BOUNDING_RECT="-81.9642 -343.437 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_2"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="time timeRecord RENAME_SET_DEFAULT "/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="40"
+#!   TYPE="FeatureMerger"
+#!   VERSION="17"
+#!   POSITION="686.792 -251.702"
+#!   BOUNDING_RECT="686.792 -251.702 585.7 71"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="MERGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GlobalID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Creator" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="EditDate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Editor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="UNMERGED_REQUESTOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GlobalID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Creator" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="EditDate" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Editor" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="USED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="UNUSED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="GlobalID" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="Creator" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="EditDate" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="Editor" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger_2"/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="REJECT_NULL_MISSING_KEYS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;foreign_pk&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;foreign_pk&lt;closeparen&gt; AUTO"/>
+#!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="64"
+#!   TYPE="FeatureMerger"
+#!   VERSION="17"
+#!   POSITION="-136.887 -938.241"
+#!   BOUNDING_RECT="-136.887 -938.241 545.087 71"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="MERGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="UNMERGED_REQUESTOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_min" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_max" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_median" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_numeric_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_sum" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_range" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_mean" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_stdev" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_stdevp" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_mode" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="USED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="UNUSED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_min" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_max" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_median" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_numeric_count" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_sum" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_range" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_mean" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_stdev" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_stdevp" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_mode" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Supplier"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger"/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="REJECT_NULL_MISSING_KEYS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;name&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;name&lt;closeparen&gt; AUTO &lt;at&gt;Value&lt;openparen&gt;_max&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;timeRecord&lt;closeparen&gt; AUTO"/>
+#!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes and Geometry"/>
+#!     <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="69"
+#!   TYPE="StatisticsCalculator"
+#!   VERSION="7"
+#!   POSITION="-831.464 -938.241"
+#!   BOUNDING_RECT="-831.464 -938.241 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="SUMMARY"/>
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_min" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_max" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_median" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_numeric_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_sum" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_range" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_mean" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_stdev" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_stdevp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_mode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="COMPLETE"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_min" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_max" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_median" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_numeric_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_sum" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_range" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_mean" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_stdev" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_stdevp" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_mode" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="CUMULATIVE"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_min" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_max" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_median" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_numeric_count" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_sum" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_range" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_mean" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_stdev" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_stdevp" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_mode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="MEAN_ATTR" PARM_VALUE="_mean"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RANGE_ATTR" PARM_VALUE="_range"/>
+#!     <XFORM_PARM PARM_NAME="MODE_ATTR" PARM_VALUE="_mode"/>
+#!     <XFORM_PARM PARM_NAME="MAX_ATTR" PARM_VALUE="_max"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="name"/>
+#!     <XFORM_PARM PARM_NAME="SUM_ATTR" PARM_VALUE="_sum"/>
+#!     <XFORM_PARM PARM_NAME="ATTIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUMERIC_ATTR" PARM_VALUE="_numeric_count"/>
+#!     <XFORM_PARM PARM_NAME="STDEVP_ATTR" PARM_VALUE="_stdevp"/>
+#!     <XFORM_PARM PARM_NAME="STATS_ATTRS" PARM_VALUE="timeRecord"/>
+#!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE="_count"/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="STDEV_ATTR" PARM_VALUE="_stdev"/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#!     <XFORM_PARM PARM_NAME="MIN_ATTR" PARM_VALUE="_min"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StatisticsCalculator"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COMPUTE_HISTOGRAM" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="HISTO_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MEDIAN_ATTR" PARM_VALUE="_median"/>
+#!     <XFORM_PARM PARM_NAME="PREPEND_ATTR_NAME_CHOICE" PARM_VALUE="For multiple results only"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="59"
+#!   TYPE="DateTimeCalculator"
+#!   VERSION="3"
+#!   POSITION="647.948 -1315.75"
+#!   BOUNDING_RECT="647.948 -1315.75 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="hackTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="timeSincePresent" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="hackTime" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="timeSincePresent" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateTimeCalculator"/>
+#!     <XFORM_PARM PARM_NAME="OPERATION_PARAMETERS" PARM_VALUE="DATETIME_GROUP]]START_DATETIME]&lt;at&gt;Value&lt;openparen&gt;hackTime&lt;closeparen&gt;]END_DATETIME]&lt;at&gt;DateTimeNow&lt;openparen&gt;&lt;closeparen&gt;]RESULT_GROUP]]RESULT_TYPE]MINUTES]RESULT_INTERVAL]timeSincePresent]FME_CONTROLLER_QUERY_FILE]transformers&lt;solidus&gt;dependencies&lt;solidus&gt;datetimecalculator&lt;solidus&gt;DATETIMECALC_3_CALCULATE_INTERVAL.fme"/>
+#!     <XFORM_PARM PARM_NAME="OPERATION_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="DATETIMECALC_3_CALCULATE_INTERVAL"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="62"
+#!   TYPE="DateTimeConverter"
+#!   VERSION="1"
+#!   POSITION="1208.95 -1028.24"
+#!   BOUNDING_RECT="1208.95 -1028.24 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="IN_FORMAT" PARM_VALUE="ISO"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateTimeConverter_3"/>
+#!     <XFORM_PARM PARM_NAME="DATETIME_ATTR" PARM_VALUE="timeRecord"/>
+#!     <XFORM_PARM PARM_NAME="REFERENCE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REFERENCE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUT_FORMAT" PARM_VALUE="FME"/>
+#!     <XFORM_PARM PARM_NAME="TEST_INPUT_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_RESULT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REPAIR_INPUT" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="TEST_INPUT" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="63"
+#!   TYPE="DateTimeConverter"
+#!   VERSION="1"
+#!   POSITION="1253.96 -1335.75"
+#!   BOUNDING_RECT="1253.96 -1335.75 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="hackTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="timeSincePresent" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="hackTime" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="timeSincePresent" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="IN_FORMAT" PARM_VALUE="FME"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateTimeConverter_4"/>
+#!     <XFORM_PARM PARM_NAME="DATETIME_ATTR" PARM_VALUE="timeRecord"/>
+#!     <XFORM_PARM PARM_NAME="REFERENCE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REFERENCE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUT_FORMAT" PARM_VALUE="ISO"/>
+#!     <XFORM_PARM PARM_NAME="TEST_INPUT_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_RESULT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REPAIR_INPUT" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="TEST_INPUT" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="60"
+#!   TYPE="StringReplacer"
+#!   VERSION="4"
+#!   POSITION="610.942 -1028.24"
+#!   BOUNDING_RECT="610.942 -1028.24 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_3"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="Z"/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="timeRecord"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="51"
+#!   TYPE="DateTimeCalculator"
+#!   VERSION="3"
+#!   POSITION="989.727 -2118.23"
+#!   BOUNDING_RECT="989.727 -2118.23 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="hackTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="timeRecord" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="device" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="foreign_pk" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="course" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{2}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{3}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{5}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{6}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{7}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{8}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{9}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{10}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{11}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{13}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{14}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{15}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{16}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="kml_data{}.value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="hackTime" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateTimeCalculator_2"/>
+#!     <XFORM_PARM PARM_NAME="OPERATION_PARAMETERS" PARM_VALUE="DATETIME_GROUP]]START_DATETIME]&lt;at&gt;Value&lt;openparen&gt;timeRecord&lt;closeparen&gt;]OPERATOR]SUBTRACT]YEARS]0]MONTHS]0]DAYS]0]HOURS]0]MINUTES]420]SECONDS]0]RESULT_GROUP]]RESULT_DATETIME]hackTime]FME_CONTROLLER_QUERY_FILE]transformers&lt;solidus&gt;dependencies&lt;solidus&gt;datetimecalculator&lt;solidus&gt;DATETIMECALC_1_ADD_INTERVAL.fme"/>
+#!     <XFORM_PARM PARM_NAME="OPERATION_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="DATETIMECALC_1_ADD_INTERVAL"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="33"
+#!   SOURCE_NODE="18"
+#!   TARGET_NODE="26"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="48"
+#!   SOURCE_NODE="43"
+#!   TARGET_NODE="40"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 REQUESTOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="13"
+#!   SOURCE_NODE="9"
+#!   TARGET_NODE="36"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="41"
+#!   SOURCE_NODE="26"
+#!   TARGET_NODE="30"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="42"
+#!   SOURCE_NODE="27"
+#!   TARGET_NODE="29"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="46"
+#!   SOURCE_NODE="28"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="44"
+#!   SOURCE_NODE="29"
+#!   TARGET_NODE="28"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="45"
+#!   SOURCE_NODE="30"
+#!   TARGET_NODE="27"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="74"
+#!   SOURCE_NODE="36"
+#!   TARGET_NODE="69"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="73"
+#!   SOURCE_NODE="36"
+#!   TARGET_NODE="64"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 1 SUPPLIER"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="57"
+#!   SOURCE_NODE="36"
+#!   TARGET_NODE="40"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 1 SUPPLIER"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="2"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="55"
+#!   SOURCE_NODE="51"
+#!   TARGET_NODE="59"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="56"
+#!   SOURCE_NODE="59"
+#!   TARGET_NODE="63"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="72"
+#!   SOURCE_NODE="60"
+#!   TARGET_NODE="62"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="66"
+#!   SOURCE_NODE="62"
+#!   TARGET_NODE="51"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="70"
+#!   SOURCE_NODE="63"
+#!   TARGET_NODE="50"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="71"
+#!   SOURCE_NODE="64"
+#!   TARGET_NODE="60"
+#!   SOURCE_PORT_DESC="fo 0 MERGED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="58"
+#!   SOURCE_NODE="69"
+#!   TARGET_NODE="64"
+#!   SOURCE_PORT_DESC="fo 0 SUMMARY"
+#!   TARGET_PORT_DESC="fi 0 REQUESTOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="49"
+#!   SOURCE_NODE="40"
+#!   TARGET_NODE="5"
+#!   SOURCE_PORT_DESC="fo 3 UNUSED_SUPPLIER"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+FME_PYTHON_VERSION 27
+GUI IGNORE SourceDataset_OGCKML_1,OGCKML_IN_KML21_LOG_VERBOSE_OGCKML_1,OGCKML_IN_KML21_RASTER_READ_MODE_OGCKML_1,OGCKML_IN_KML21_SCAN_SCHEMA_OGCKML_1,OGCKML_IN_KML21_FAIL_ON_NETWORK_ERROR_OGCKML_1,OGCKML_IN_KML21_DELETE_DOWNLOADED_FILES_OGCKML_1,OGCKML_IN_KML21_TRAVERSE_NETWORKLINKS_OGCKML_1,OGCKML_IN_KML21_MAX_NETWORKLINK_TRAVERSAL_DEPTH_OGCKML_1,OGCKML_IN_KML21_DATASET_ENCODING_OGCKML_1,OGCKML_IN_KML21_MOVE_TO_KML_WORLD_COORDSYS_OGCKML_1,OGCKML_IN_KML21_APPLY_MODEL_TRANSFORMS_OGCKML_1,OGCKML_IN_EXPOSE_ATTRS_GROUP_OGCKML_1,OGCKML_IN_SEARCH_ENVELOPE_MINX_OGCKML_1,OGCKML_IN_SEARCH_ENVELOPE_MINY_OGCKML_1,OGCKML_IN_SEARCH_ENVELOPE_MAXX_OGCKML_1,OGCKML_IN_SEARCH_ENVELOPE_MAXY_OGCKML_1,OGCKML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OGCKML_1,OGCKML_IN_CLIP_TO_ENVELOPE_OGCKML_1,OGCKML_IN_NETWORK_AUTHENTICATION_OGCKML_1,ARCGISONLINEFEATURES_IN_NC_ARCGISONLINEFEATURES_1,ARCGISONLINEFEATURES_IN_AGOL_ADV_PARM_GROUP_ARCGISONLINEFEATURES_1,ARCGISONLINEFEATURES_IN_FEATURES_PER_REQUEST_ARCGISONLINEFEATURES_1,ARCGISONLINEFEATURES_IN_EXPOSE_ATTRS_GROUP_ARCGISONLINEFEATURES_1,ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_MINX_ARCGISONLINEFEATURES_1,ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_MINY_ARCGISONLINEFEATURES_1,ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_MAXX_ARCGISONLINEFEATURES_1,ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_MAXY_ARCGISONLINEFEATURES_1,ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ARCGISONLINEFEATURES_1,ARCGISONLINEFEATURES_IN_CLIP_TO_ENVELOPE_ARCGISONLINEFEATURES_1,FEATURESERVICE_ARCGISONLINEFEATURES_1,ARCGISONLINEFEATURES_OUT_NC_ARCGISONLINEFEATURES_3,ARCGISONLINEFEATURES_OUT_AGOL_ADV_PARM_GROUP_ARCGISONLINEFEATURES_3,ARCGISONLINEFEATURES_OUT_FEATURES_PER_REQUEST_ARCGISONLINEFEATURES_3,ARCGISONLINEFEATURES_OUT_USE_GLOBAL_ID_ARCGISONLINEFEATURES_3,FEATURESERVICE_ARCGISONLINEFEATURES_3,ARCGISONLINEFEATURES_OUT_NC_ARCGISONLINEFEATURES_4,ARCGISONLINEFEATURES_OUT_AGOL_ADV_PARM_GROUP_ARCGISONLINEFEATURES_4,ARCGISONLINEFEATURES_OUT_FEATURES_PER_REQUEST_ARCGISONLINEFEATURES_4,ARCGISONLINEFEATURES_OUT_USE_GLOBAL_ID_ARCGISONLINEFEATURES_4,FEATURESERVICE_ARCGISONLINEFEATURES_4
+DEFAULT_MACRO SourceDataset_OGCKML_8 http://bit.ly/2z75naZ" "http://bit.ly/2juRkVY" "http://bit.ly/2huJ3Nf" "http://bit.ly/2AOpbgJ
+GUI FILE_OR_URL SourceDataset_OGCKML_8 KML_Files(*.kml;*.kmz)|*.kml;*.kmz|All_Files(*)|* Source Google KML File or URL:
+INCLUDE [ if {{$(SourceDataset_OGCKML_8)} == {}} { puts_real {Parameter 'SourceDataset_OGCKML_8' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+MULTI_READER_TYPE{0} OGCKML
+MULTI_READER_KEYWORD{0} OGCKML_1
+MULTI_READER_GEN_DIRECTIVES{0} KML21_LOG_VERBOSE,No,NETWORK_AUTHENTICATION,,KML21_RASTER_READ_MODE,GroundOverlay,KML21_MOVE_TO_KML_WORLD_COORDSYS,Yes,USE_SEARCH_ENVELOPE,NO,KML21_TRAVERSE_NETWORKLINKS,All,SEARCH_ENVELOPE_MINY,0,CLIP_TO_ENVELOPE,NO,KML21_DATASET_ENCODING,,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,SEARCH_ENVELOPE_MAXX,0,KML21_SCAN_SCHEMA,Yes,KML21_DELETE_DOWNLOADED_FILES,Yes,_MERGE_SCHEMAS,YES,KML21_MAX_NETWORKLINK_TRAVERSAL_DEPTH,5,KML21_FAIL_ON_NETWORK_ERROR,No,OGCKML_EXPOSE_FORMAT_ATTRS,,SEARCH_ENVELOPE_MAXY,0,KML21_APPLY_MODEL_TRANSFORMS,No,EXPOSE_ATTRS_GROUP,FME_DISCLOSURE_CLOSED
+MULTI_READER_TYPE{1} ARCGISONLINEFEATURES
+MULTI_READER_KEYWORD{1} ARCGISONLINEFEATURES_1
+MULTI_READER_GEN_DIRECTIVES{1} FEATURES_PER_REQUEST,1000,SEARCH_ENVELOPE_MAXX,0,_MERGE_SCHEMAS,YES,SEARCH_ENVELOPE_MINX,0,TABLELIST,<quote>Location<space>Tracking<quote>,NC,justin<lt>space<gt>Esri<lt>space<gt>ArcGIS<lt>space<gt>Online,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,AGOL_ADV_PARM_GROUP,,ARCGISONLINEFEATURES_EXPOSE_FORMAT_ATTRS,,SEARCH_ENVELOPE_MINY,0,CONSTRAINTS,,USE_SEARCH_ENVELOPE,NO,EXPOSE_ATTRS_GROUP,,CLIP_TO_ENVELOPE,NO,FEATURESERVICE,H13227<solidus>data<solidus>Field_Team_Tracking,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,SEARCH_ENVELOPE_MAXY,0,CONNECTION,,TRIAL_LINK,
+
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} ARCGISONLINEFEATURES
+MULTI_WRITER_KEYWORD{0} ARCGISONLINEFEATURES_3
+MULTI_WRITER_TYPE{1} ARCGISONLINEFEATURES
+MULTI_WRITER_KEYWORD{1} ARCGISONLINEFEATURES_4
+#! END_WB_HEADER
+
+#! START_WB_HEADER
+MACRO WB_KEYWORD "OGCKML_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER OGCKML OGCKML_1
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_OGCKML_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER OGCKML OGCKML_1
+DEFAULT_MACRO SourceDataset_OGCKML_1 $(SourceDataset_OGCKML_8)
+GUI FILE_OR_URL SourceDataset_OGCKML_1 KML_Files(*.kml;*.kmz)|*.kml;*.kmz|All_Files(*)|* Source Google KML File or URL:
+DEFAULT_MACRO OGCKML_IN_KML21_LOG_VERBOSE_OGCKML_1 No
+OGCKML_1_KML21_LOG_VERBOSE "$(OGCKML_IN_KML21_LOG_VERBOSE_OGCKML_1)"
+GUI CHOICE OGCKML_IN_KML21_LOG_VERBOSE_OGCKML_1 Yes%No Verbose Logging:
+DEFAULT_MACRO OGCKML_IN_KML21_RASTER_READ_MODE_OGCKML_1 GroundOverlay
+OGCKML_1_KML21_RASTER_READ_MODE "$(OGCKML_IN_KML21_RASTER_READ_MODE_OGCKML_1)"
+GUI OPTIONAL CHOICE OGCKML_IN_KML21_RASTER_READ_MODE_OGCKML_1 All%GroundOverlay%None Read Overlays as Rasters:
+DEFAULT_MACRO OGCKML_IN_KML21_SCAN_SCHEMA_OGCKML_1 Yes
+OGCKML_1_KML21_SCAN_SCHEMA "$(OGCKML_IN_KML21_SCAN_SCHEMA_OGCKML_1)"
+GUI CHOICE OGCKML_IN_KML21_SCAN_SCHEMA_OGCKML_1 Yes%No Scan Schema:
+DEFAULT_MACRO OGCKML_IN_KML21_FAIL_ON_NETWORK_ERROR_OGCKML_1 No
+OGCKML_1_KML21_FAIL_ON_NETWORK_ERROR "$(OGCKML_IN_KML21_FAIL_ON_NETWORK_ERROR_OGCKML_1)"
+GUI CHOICE OGCKML_IN_KML21_FAIL_ON_NETWORK_ERROR_OGCKML_1 Yes%No Fail on Network Errors:
+DEFAULT_MACRO OGCKML_IN_KML21_DELETE_DOWNLOADED_FILES_OGCKML_1 Yes
+OGCKML_1_KML21_DELETE_DOWNLOADED_FILES "$(OGCKML_IN_KML21_DELETE_DOWNLOADED_FILES_OGCKML_1)"
+GUI CHOICE OGCKML_IN_KML21_DELETE_DOWNLOADED_FILES_OGCKML_1 Yes%No Delete Downloaded Files:
+DEFAULT_MACRO OGCKML_IN_KML21_TRAVERSE_NETWORKLINKS_OGCKML_1 All
+OGCKML_1_KML21_TRAVERSE_NETWORKLINKS "$(OGCKML_IN_KML21_TRAVERSE_NETWORKLINKS_OGCKML_1)"
+GUI OPTIONAL CHOICE OGCKML_IN_KML21_TRAVERSE_NETWORKLINKS_OGCKML_1 No%Local%All Traverse NetworkLinks:
+DEFAULT_MACRO OGCKML_IN_KML21_MAX_NETWORKLINK_TRAVERSAL_DEPTH_OGCKML_1 5
+OGCKML_1_KML21_MAX_NETWORKLINK_TRAVERSAL_DEPTH "$(OGCKML_IN_KML21_MAX_NETWORKLINK_TRAVERSAL_DEPTH_OGCKML_1)"
+GUI OPTIONAL INTEGER OGCKML_IN_KML21_MAX_NETWORKLINK_TRAVERSAL_DEPTH_OGCKML_1 Maximum NetworkLinks Traversal Depth:
+DEFAULT_MACRO OGCKML_IN_KML21_DATASET_ENCODING_OGCKML_1 
+OGCKML_1_KML21_DATASET_ENCODING "$(OGCKML_IN_KML21_DATASET_ENCODING_OGCKML_1)"
+GUI OPTIONAL ENCODING OGCKML_IN_KML21_DATASET_ENCODING_OGCKML_1 * Force Dataset Encoding:
+DEFAULT_MACRO OGCKML_IN_KML21_MOVE_TO_KML_WORLD_COORDSYS_OGCKML_1 Yes
+OGCKML_1_KML21_MOVE_TO_KML_WORLD_COORDSYS "$(OGCKML_IN_KML21_MOVE_TO_KML_WORLD_COORDSYS_OGCKML_1)"
+GUI CHOICE OGCKML_IN_KML21_MOVE_TO_KML_WORLD_COORDSYS_OGCKML_1 Yes%No Move To World Coordinate System:
+DEFAULT_MACRO OGCKML_IN_KML21_APPLY_MODEL_TRANSFORMS_OGCKML_1 No
+OGCKML_1_KML21_APPLY_MODEL_TRANSFORMS "$(OGCKML_IN_KML21_APPLY_MODEL_TRANSFORMS_OGCKML_1)"
+GUI CHOICE OGCKML_IN_KML21_APPLY_MODEL_TRANSFORMS_OGCKML_1 Yes%No Apply Transformations To Models:
+DEFAULT_MACRO OGCKML_IN_EXPOSE_ATTRS_GROUP_OGCKML_1 FME_DISCLOSURE_CLOSED
+OGCKML_1_EXPOSE_ATTRS_GROUP "$(OGCKML_IN_EXPOSE_ATTRS_GROUP_OGCKML_1)"
+GUI OPTIONAL DISCLOSUREGROUP OGCKML_IN_EXPOSE_ATTRS_GROUP_OGCKML_1 OGCKML_IN_OGCKML_EXPOSE_FORMAT_ATTRS Schema Attributes
+# Include this file in source setting section to add external search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+# ===========================================================================
+DEFAULT_MACRO OGCKML_IN_SEARCH_ENVELOPE_MINX_OGCKML_1 0
+OGCKML_1_SEARCH_ENVELOPE "$(OGCKML_IN_SEARCH_ENVELOPE_MINX_OGCKML_1)"
+GUI OPTIONAL FLOAT OGCKML_IN_SEARCH_ENVELOPE_MINX_OGCKML_1 Minimum X:
+# ===========================================================================
+DEFAULT_MACRO OGCKML_IN_SEARCH_ENVELOPE_MINY_OGCKML_1 0
+OGCKML_1_SEARCH_ENVELOPE "$(OGCKML_IN_SEARCH_ENVELOPE_MINY_OGCKML_1)"
+GUI OPTIONAL FLOAT OGCKML_IN_SEARCH_ENVELOPE_MINY_OGCKML_1 Minimum Y:
+# ===========================================================================
+DEFAULT_MACRO OGCKML_IN_SEARCH_ENVELOPE_MAXX_OGCKML_1 0
+OGCKML_1_SEARCH_ENVELOPE "$(OGCKML_IN_SEARCH_ENVELOPE_MAXX_OGCKML_1)"
+GUI OPTIONAL FLOAT OGCKML_IN_SEARCH_ENVELOPE_MAXX_OGCKML_1 Maximum X:
+# ===========================================================================
+DEFAULT_MACRO OGCKML_IN_SEARCH_ENVELOPE_MAXY_OGCKML_1 0
+OGCKML_1_SEARCH_ENVELOPE "$(OGCKML_IN_SEARCH_ENVELOPE_MAXY_OGCKML_1)"
+GUI OPTIONAL FLOAT OGCKML_IN_SEARCH_ENVELOPE_MAXY_OGCKML_1 Maximum Y:
+# ===========================================================================
+DEFAULT_MACRO OGCKML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OGCKML_1 
+OGCKML_1_SEARCH_ENVELOPE "$(OGCKML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OGCKML_1)"
+GUI OPTIONAL COORDSYS OGCKML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OGCKML_1 Search Envelope Coordinate System:
+# ===========================================================================
+# BUG18999: We now have a soft clip to fall back on like native spatial index
+# thus we are reintroducing the clip to envelop as an option for users.
+# Defualt to soft clip as per the existing database readers we are emulating
+DEFAULT_MACRO OGCKML_IN_CLIP_TO_ENVELOPE_OGCKML_1 NO
+OGCKML_1_CLIP_TO_ENVELOPE "$(OGCKML_IN_CLIP_TO_ENVELOPE_OGCKML_1)"
+GUI OPTIONAL CHECKBOX OGCKML_IN_CLIP_TO_ENVELOPE_OGCKML_1 YES%NO Clip to Search Envelope
+# ===========================================================================
+DEFAULT_MACRO OGCKML_IN_NETWORK_AUTHENTICATION_OGCKML_1 
+OGCKML_1_NETWORK_AUTHENTICATION "$(OGCKML_IN_NETWORK_AUTHENTICATION_OGCKML_1)"
+GUI OPTIONAL AUTHENTICATOR OGCKML_IN_NETWORK_AUTHENTICATION_OGCKML_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ===========================================================================
+DEFAULT_MACRO OGCKML_IN_ATTRIBUTE_READING_OGCKML_1 ALL
+OGCKML_1_ATTRIBUTE_READING "$(OGCKML_IN_ATTRIBUTE_READING_OGCKML_1)"
+OGCKML_1_DATASET "$(SourceDataset_OGCKML_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "ARCGISONLINEFEATURES_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER ARCGISONLINEFEATURES ARCGISONLINEFEATURES_1
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_ARCGISONLINEFEATURES_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER ARCGISONLINEFEATURES ARCGISONLINEFEATURES_1
+DEFAULT_MACRO SourceDataset_ARCGISONLINEFEATURES_1 www.arcgis.com
+DEFAULT_MACRO ARCGISONLINEFEATURES_IN_NC_ARCGISONLINEFEATURES_1 justin<space>Esri<space>ArcGIS<space>Online
+ARCGISONLINEFEATURES_1_NC "$(ARCGISONLINEFEATURES_IN_NC_ARCGISONLINEFEATURES_1)"
+GUI NAMED_CONNECTION_ENCODED ARCGISONLINEFEATURES_IN_NC_ARCGISONLINEFEATURES_1 "Esri ArcGIS Online" ArcGIS Online Connection:
+DEFAULT_MACRO ARCGISONLINEFEATURES_IN_AGOL_ADV_PARM_GROUP_ARCGISONLINEFEATURES_1 
+GUI OPTIONAL DISCLOSUREGROUP ARCGISONLINEFEATURES_IN_AGOL_ADV_PARM_GROUP_ARCGISONLINEFEATURES_1 ARCGISONLINEFEATURES_IN_FEATURES_PER_REQUEST Advanced
+DEFAULT_MACRO ARCGISONLINEFEATURES_IN_FEATURES_PER_REQUEST_ARCGISONLINEFEATURES_1 1000
+ARCGISONLINEFEATURES_1_FEATURES_PER_REQUEST "$(ARCGISONLINEFEATURES_IN_FEATURES_PER_REQUEST_ARCGISONLINEFEATURES_1)"
+GUI INTEGER ARCGISONLINEFEATURES_IN_FEATURES_PER_REQUEST_ARCGISONLINEFEATURES_1 Features Per Request:
+DEFAULT_MACRO ARCGISONLINEFEATURES_IN_EXPOSE_ATTRS_GROUP_ARCGISONLINEFEATURES_1 
+GUI OPTIONAL DISCLOSUREGROUP ARCGISONLINEFEATURES_IN_EXPOSE_ATTRS_GROUP_ARCGISONLINEFEATURES_1 ARCGISONLINEFEATURES_IN_ARCGISONLINEFEATURES_EXPOSE_FORMAT_ATTRS Schema Attributes
+# Include this file in source setting section to add native search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+# ===========================================================================
+DEFAULT_MACRO ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_MINX_ARCGISONLINEFEATURES_1 0
+ARCGISONLINEFEATURES_1_SEARCH_ENVELOPE "$(ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_MINX_ARCGISONLINEFEATURES_1)"
+GUI OPTIONAL FLOAT ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_MINX_ARCGISONLINEFEATURES_1 Minimum X:
+# ===========================================================================
+DEFAULT_MACRO ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_MINY_ARCGISONLINEFEATURES_1 0
+ARCGISONLINEFEATURES_1_SEARCH_ENVELOPE "$(ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_MINY_ARCGISONLINEFEATURES_1)"
+GUI OPTIONAL FLOAT ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_MINY_ARCGISONLINEFEATURES_1 Minimum Y:
+# ===========================================================================
+DEFAULT_MACRO ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_MAXX_ARCGISONLINEFEATURES_1 0
+ARCGISONLINEFEATURES_1_SEARCH_ENVELOPE "$(ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_MAXX_ARCGISONLINEFEATURES_1)"
+GUI OPTIONAL FLOAT ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_MAXX_ARCGISONLINEFEATURES_1 Maximum X:
+# ===========================================================================
+DEFAULT_MACRO ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_MAXY_ARCGISONLINEFEATURES_1 0
+ARCGISONLINEFEATURES_1_SEARCH_ENVELOPE "$(ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_MAXY_ARCGISONLINEFEATURES_1)"
+GUI OPTIONAL FLOAT ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_MAXY_ARCGISONLINEFEATURES_1 Maximum Y:
+# ===========================================================================
+DEFAULT_MACRO ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ARCGISONLINEFEATURES_1 
+ARCGISONLINEFEATURES_1_SEARCH_ENVELOPE "$(ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ARCGISONLINEFEATURES_1)"
+GUI OPTIONAL COORDSYS ARCGISONLINEFEATURES_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ARCGISONLINEFEATURES_1 Search Envelope Coordinate System:
+# ===========================================================================
+DEFAULT_MACRO ARCGISONLINEFEATURES_IN_CLIP_TO_ENVELOPE_ARCGISONLINEFEATURES_1 NO
+ARCGISONLINEFEATURES_1_CLIP_TO_ENVELOPE "$(ARCGISONLINEFEATURES_IN_CLIP_TO_ENVELOPE_ARCGISONLINEFEATURES_1)"
+GUI OPTIONAL CHECKBOX ARCGISONLINEFEATURES_IN_CLIP_TO_ENVELOPE_ARCGISONLINEFEATURES_1 YES%NO Clip to Search Envelope
+DEFAULT_MACRO ARCGISONLINEFEATURES_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_ARCGISONLINEFEATURES_1 Yes
+ARCGISONLINEFEATURES_1_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(ARCGISONLINEFEATURES_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_ARCGISONLINEFEATURES_1)"
+# ===========================================================================
+DEFAULT_MACRO ARCGISONLINEFEATURES_IN_ATTRIBUTE_READING_ARCGISONLINEFEATURES_1 DEFLINE
+ARCGISONLINEFEATURES_1_ATTRIBUTE_READING "$(ARCGISONLINEFEATURES_IN_ATTRIBUTE_READING_ARCGISONLINEFEATURES_1)"
+# Expose Feature Service in navigator.
+DEFAULT_MACRO FEATURESERVICE_ARCGISONLINEFEATURES_1 H13227/data/Field_Team_Tracking
+GUI STRING_READONLY FEATURESERVICE_ARCGISONLINEFEATURES_1 Feature Service:
+ARCGISONLINEFEATURES_1_FEATURESERVICE "$(FEATURESERVICE_ARCGISONLINEFEATURES_1)"
+ARCGISONLINEFEATURES_1_DATASET "$(SourceDataset_ARCGISONLINEFEATURES_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "ARCGISONLINEFEATURES_3"
+#! END_WB_HEADER
+#! START_DEST_HEADER ARCGISONLINEFEATURES ARCGISONLINEFEATURES_3
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_ARCGISONLINEFEATURES_3 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER ARCGISONLINEFEATURES ARCGISONLINEFEATURES_3
+DEFAULT_MACRO DestDataset_ARCGISONLINEFEATURES_3 www.arcgis.com
+DEFAULT_MACRO ARCGISONLINEFEATURES_OUT_NC_ARCGISONLINEFEATURES_3 justin<space>Esri<space>ArcGIS<space>Online
+ARCGISONLINEFEATURES_3_NC "$(ARCGISONLINEFEATURES_OUT_NC_ARCGISONLINEFEATURES_3)"
+GUI NAMED_CONNECTION_ENCODED ARCGISONLINEFEATURES_OUT_NC_ARCGISONLINEFEATURES_3 "Esri ArcGIS Online" ArcGIS Online Connection:
+DEFAULT_MACRO ARCGISONLINEFEATURES_OUT_AGOL_ADV_PARM_GROUP_ARCGISONLINEFEATURES_3 
+GUI OPTIONAL DISCLOSUREGROUP ARCGISONLINEFEATURES_OUT_AGOL_ADV_PARM_GROUP_ARCGISONLINEFEATURES_3 ARCGISONLINEFEATURES_OUT_FEATURES_PER_REQUEST_ARCGISONLINEFEATURES_3%ARCGISONLINEFEATURES_OUT_USE_GLOBAL_ID_ARCGISONLINEFEATURES_3 Advanced
+DEFAULT_MACRO ARCGISONLINEFEATURES_OUT_FEATURES_PER_REQUEST_ARCGISONLINEFEATURES_3 1000
+ARCGISONLINEFEATURES_3_FEATURES_PER_REQUEST "$(ARCGISONLINEFEATURES_OUT_FEATURES_PER_REQUEST_ARCGISONLINEFEATURES_3)"
+GUI INTEGER ARCGISONLINEFEATURES_OUT_FEATURES_PER_REQUEST_ARCGISONLINEFEATURES_3 Features Per Request:
+DEFAULT_MACRO ARCGISONLINEFEATURES_OUT_USE_GLOBAL_ID_ARCGISONLINEFEATURES_3 No
+ARCGISONLINEFEATURES_3_USE_GLOBAL_ID "$(ARCGISONLINEFEATURES_OUT_USE_GLOBAL_ID_ARCGISONLINEFEATURES_3)"
+GUI CHOICE ARCGISONLINEFEATURES_OUT_USE_GLOBAL_ID_ARCGISONLINEFEATURES_3 Yes%No Use Global IDs:
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO ARCGISONLINEFEATURES_OUT_DESTINATION_DATASETTYPE_VALIDATION_ARCGISONLINEFEATURES_3 Yes
+ARCGISONLINEFEATURES_3_DESTINATION_DATASETTYPE_VALIDATION "$(ARCGISONLINEFEATURES_OUT_DESTINATION_DATASETTYPE_VALIDATION_ARCGISONLINEFEATURES_3)"
+# Expose Feature Service in navigator.
+DEFAULT_MACRO FEATURESERVICE_ARCGISONLINEFEATURES_3 H13227/data/Field_Team_Tracking
+GUI STRING FEATURESERVICE_ARCGISONLINEFEATURES_3 Feature Service:
+ARCGISONLINEFEATURES_3_FEATURESERVICE "$(FEATURESERVICE_ARCGISONLINEFEATURES_3)"
+ARCGISONLINEFEATURES_3_DATASET "$(DestDataset_ARCGISONLINEFEATURES_3)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "ARCGISONLINEFEATURES_4"
+#! END_WB_HEADER
+#! START_DEST_HEADER ARCGISONLINEFEATURES ARCGISONLINEFEATURES_4
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_ARCGISONLINEFEATURES_4 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER ARCGISONLINEFEATURES ARCGISONLINEFEATURES_4
+DEFAULT_MACRO DestDataset_ARCGISONLINEFEATURES_4 www.arcgis.com
+DEFAULT_MACRO ARCGISONLINEFEATURES_OUT_NC_ARCGISONLINEFEATURES_4 justin<space>Esri<space>ArcGIS<space>Online
+ARCGISONLINEFEATURES_4_NC "$(ARCGISONLINEFEATURES_OUT_NC_ARCGISONLINEFEATURES_4)"
+GUI NAMED_CONNECTION_ENCODED ARCGISONLINEFEATURES_OUT_NC_ARCGISONLINEFEATURES_4 "Esri ArcGIS Online" ArcGIS Online Connection:
+DEFAULT_MACRO ARCGISONLINEFEATURES_OUT_AGOL_ADV_PARM_GROUP_ARCGISONLINEFEATURES_4 
+GUI OPTIONAL DISCLOSUREGROUP ARCGISONLINEFEATURES_OUT_AGOL_ADV_PARM_GROUP_ARCGISONLINEFEATURES_4 ARCGISONLINEFEATURES_OUT_FEATURES_PER_REQUEST_ARCGISONLINEFEATURES_4%ARCGISONLINEFEATURES_OUT_USE_GLOBAL_ID_ARCGISONLINEFEATURES_4 Advanced
+DEFAULT_MACRO ARCGISONLINEFEATURES_OUT_FEATURES_PER_REQUEST_ARCGISONLINEFEATURES_4 1000
+ARCGISONLINEFEATURES_4_FEATURES_PER_REQUEST "$(ARCGISONLINEFEATURES_OUT_FEATURES_PER_REQUEST_ARCGISONLINEFEATURES_4)"
+GUI INTEGER ARCGISONLINEFEATURES_OUT_FEATURES_PER_REQUEST_ARCGISONLINEFEATURES_4 Features Per Request:
+DEFAULT_MACRO ARCGISONLINEFEATURES_OUT_USE_GLOBAL_ID_ARCGISONLINEFEATURES_4 No
+ARCGISONLINEFEATURES_4_USE_GLOBAL_ID "$(ARCGISONLINEFEATURES_OUT_USE_GLOBAL_ID_ARCGISONLINEFEATURES_4)"
+GUI CHOICE ARCGISONLINEFEATURES_OUT_USE_GLOBAL_ID_ARCGISONLINEFEATURES_4 Yes%No Use Global IDs:
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO ARCGISONLINEFEATURES_OUT_DESTINATION_DATASETTYPE_VALIDATION_ARCGISONLINEFEATURES_4 Yes
+ARCGISONLINEFEATURES_4_DESTINATION_DATASETTYPE_VALIDATION "$(ARCGISONLINEFEATURES_OUT_DESTINATION_DATASETTYPE_VALIDATION_ARCGISONLINEFEATURES_4)"
+# Expose Feature Service in navigator.
+DEFAULT_MACRO FEATURESERVICE_ARCGISONLINEFEATURES_4 H13227/data/Latest Location
+GUI STRING FEATURESERVICE_ARCGISONLINEFEATURES_4 Feature Service:
+ARCGISONLINEFEATURES_4_FEATURESERVICE "$(FEATURESERVICE_ARCGISONLINEFEATURES_4)"
+ARCGISONLINEFEATURES_4_DATASET "$(DestDataset_ARCGISONLINEFEATURES_4)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)inReachOnly.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_FILTER_MASK -1
+DEFAULT_MACRO DATASET_KEYWORD_OGCKML_1 OGCKML_1
+DEFAULT_MACRO DATASET_KEYWORD_ARCGISONLINEFEATURES_1 ARCGISONLINEFEATURES_1
+DEFAULT_MACRO DATASET_KEYWORD_ARCGISONLINEFEATURES_3 ARCGISONLINEFEATURES_3
+DEFAULT_MACRO DATASET_KEYWORD_ARCGISONLINEFEATURES_4 ARCGISONLINEFEATURES_4
+# -------------------------------------------------------------------------
+
+OGCKML_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+ARCGISONLINEFEATURES_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME inReachOnly
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+OGCKML_1_DEF Placemark   kml_data{0}.value            kml_buffer   kml_data{1}.value            kml_buffer   kml_data{2}.value            kml_buffer   kml_data{3}.value            kml_buffer   kml_data{4}.value            kml_buffer   kml_data{5}.value            kml_buffer   kml_data{6}.value            kml_buffer   kml_data{7}.value            kml_buffer   kml_data{8}.value            kml_buffer   kml_data{9}.value            kml_buffer   kml_data{10}.value           kml_buffer   kml_data{11}.value           kml_buffer   kml_data{12}.value           kml_buffer   kml_data{13}.value           kml_buffer   kml_data{14}.value           kml_buffer   kml_data{15}.value           kml_buffer   kml_data{16}.value           kml_buffer
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE OGCKML OGCKML_1::Placemark multi_reader_keyword,$(DATASET_KEYWORD_OGCKML_1) TO FME_GENERIC ::Placemark ALIAS_GEOMETRY    ROUTE ARCGISONLINEFEATURES "ARCGISONLINEFEATURES_1::Location Tracking" multi_reader_keyword,$(DATASET_KEYWORD_ARCGISONLINEFEATURES_1) TO FME_GENERIC "::Location Tracking" ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+OGCKML_1_MERGE_DEF OGCKML_1::Placemark EXACT Placemark
+ARCGISONLINEFEATURES_1_MERGE_DEF "ARCGISONLINEFEATURES_1::Location Tracking" EXACT Location<space>Tracking DEFLINE arcgisonline_type,arcgisonline_point,arcgisonline_sql_where_clause,,arcgisonline_input_geometry,,arcgisonline_input_geometry_type,esriGeometryEnvelope,arcgisonline_spatial_relationship,esriSpatialRelIntersects,arcgisonline_distance,,arcgisonline_units,esriSRUnit_Meter,arcgisonline_include_attachments,NO,fme_attribute_reading,defined,OBJECTID,esriFieldTypeOID,GlobalID,esriFieldTypeGlobalID<openparen>38<closeparen>,CreationDate,esriFieldTypeDate,Creator,esriFieldTypeString<openparen>50<closeparen>,EditDate,esriFieldTypeDate,Editor,esriFieldTypeString<openparen>50<closeparen>,name,esriFieldTypeString<openparen>256<closeparen>,timeRecord,esriFieldTypeDate,course,esriFieldTypeDouble,device,esriFieldTypeString<openparen>256<closeparen>,foreign_pk,esriFieldTypeString<openparen>256<closeparen>
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Placemark (OGCKML_1) Splitter"    INPUT FEATURE_TYPE Placemark    OUTPUT FEATURE_TYPE Placemark_OGCKML_1
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Location Tracking (ARCGISONLINEFEATURES_1) Splitter"    INPUT FEATURE_TYPE "Location Tracking"    OUTPUT FEATURE_TYPE "Location Tracking_ARCGISONLINEFEATURES_1"
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * VertexCreatorFactory    FACTORY_NAME VertexCreator_3    INPUT  FEATURE_TYPE Placemark_OGCKML_1    MODE ADD    INDEX "<Unused>"    CONTINUE_ON_ERROR YES    XVAL "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>kml_data<opencurly>9<closecurly>.value<closeparen>,VertexCreator_3)"    YVAL "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>kml_data<opencurly>8<closecurly>.value<closeparen>,VertexCreator_3)"    OUTPUT OUTPUT FEATURE_TYPE VertexCreator_3_OUTPUT
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE VertexCreator_3_OUTPUT 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION { "kml_data<opencurly>4<closecurly>.value" "name" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "kml_data<opencurly>0<closecurly>.value" "foreign_pk" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "kml_data<opencurly>12<closecurly>.value" "course" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "kml_data<opencurly>1<closecurly>.value" "time" "RENAME_SET_DEFAULT" "" }    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT
+
+# -------------------------------------------------------------------------
+
+DEFAULT_MACRO DateTimeConverter_2_EXPRESSION_LIST
+DEFAULT_MACRO DateTimeConverter_2_TEST_CLAUSE_LIST
+INCLUDE [    set repairInput {};    if {{NO} eq {YES}} {       set repairInput "<comma>repair";    };    set inFormat {FME|ISO};    if { {%N<solidus>%e<solidus>%Y<space>%l:%M:%S<space>%p} ne {} } {       set inFormat {%N<solidus>%e<solidus>%Y<space>%l:%M:%S<space>%p};       if { [string first "<quote>" $inFormat] != -1 } {          set inFormat [string map {"<quote>" "<backslash><quote>"} $inFormat];       };    };    set outFormat {ISO};    if { [string first "<quote>" $outFormat] != -1 } {       set outFormat [string map {"<quote>" "<backslash><quote>"} $outFormat];    };    set parmList {};    set testList {};    set attrs [split {time} { }];    foreach attr $attrs {       lappend parmList $attr;       set funcAttr $attr;       if { [string first "<quote>" $attr] != -1 }       {          set funcAttr [string map {"<quote>" "<backslash><quote>"} $attr];          append funcAttr "<quote>";          set funcAttr "<quote>$funcAttr";       };       lappend parmList <at>DateTimeFormat<openparen><at>DateTimeParse<openparen><at>Value<openparen>$funcAttr<closeparen><comma><quote>$inFormat<quote>$repairInput<closeparen><comma><quote>$outFormat<quote><closeparen>;       lappend testList "TEST $attr ATTRIBUTE_VALUE_NULL \"\" ENCODED"    };    puts "MACRO DateTimeConverter_2_EXPRESSION_LIST [join $parmList {,}]";    puts "MACRO DateTimeConverter_2_TEST_CLAUSE_LIST [join $testList { }]"; ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeConverter_2_1    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE DateTimeConverter_2__TEST_NULL__         @EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV, $(DateTimeConverter_2_EXPRESSION_LIST), DateTimeConverter_2)
+FACTORY_DEF * TestFactory    FACTORY_NAME DateTimeConverter_2_2    INPUT FEATURE_TYPE DateTimeConverter_2__TEST_NULL__    $(DateTimeConverter_2_TEST_CLAUSE_LIST)    BOOLEAN_OPERATOR OR    OUTPUT FAILED FEATURE_TYPE DateTimeConverter_2_OUTPUT
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    INPUT  FEATURE_TYPE DateTimeConverter_2_OUTPUT    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "device" "SET_TO" "inReach" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
+
+
+# -------------------------------------------------------------------------
+
+MACRO casemac
+INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
+Tcl2 proc StringReplacer_2_cfdb5ffd_6b83_4aa4_876e_7212d24b852a37_replacer { findText replaceText invalidValue} {     set attrs [split \"course\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{YES} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_2    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_2_OUTPUT         @Tcl2("StringReplacer_2_cfdb5ffd_6b83_4aa4_876e_7212d24b852a37_replacer {<openbracket>A-z<space><u00b0><solidus><closebracket>} {} {_FME_NO_OP_}")
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME CoordinateSystemSetter    INPUT  FEATURE_TYPE StringReplacer_2_OUTPUT    OUTPUT FEATURE_TYPE CoordinateSystemSetter_OUTPUT         @CoordSys("LL84")
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeRenamer_2    INPUT  FEATURE_TYPE CoordinateSystemSetter_OUTPUT 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION { "time" "timeRecord" "RENAME_SET_DEFAULT" "" }    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_2_OUTPUT
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeRenamer_2 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeRenamer_2_OUTPUT   OUTPUT FEATURE_TYPE AttributeRenamer_2_OUTPUT_0_XZPnkgk0+40=   OUTPUT FEATURE_TYPE AttributeRenamer_2_OUTPUT_1_/5K/VQuHWx4=   OUTPUT FEATURE_TYPE AttributeRenamer_2_OUTPUT_2_PDMlvyoqpQA=
+# -------------------------------------------------------------------------
+
+INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_2_REFERENCE_INFO ATTRIBUTES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
+
+FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger_2    INPUT REFERENCER FEATURE_TYPE "Location Tracking_ARCGISONLINEFEATURES_1"    INPUT REFERENCEE FEATURE_TYPE AttributeRenamer_2_OUTPUT_2_PDMlvyoqpQA=    REFERENCE_INFO $(FeatureMerger_2_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>foreign_pk<closeparen>,FeatureMerger_2) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>foreign_pk<closeparen>,FeatureMerger_2) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES No    REFERENCEES_FIRST No    REJECT_INVALID_GEOM YES    OUTPUT UNREFERENCED FEATURE_TYPE FeatureMerger_2_UNUSED_SUPPLIER
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * TransformFact:7:StatisticsCalculator    FACTORY_NAME StatisticsCalculator    FACTORY_META_PARAMS    TRANSFORMER_NAME:StatisticsCalculator    TRANSFORMER_PARAMS:XFORMER_NAME,StatisticsCalculator,TRANSFORMER_GROUP,,PARAMETERS_GROUP,,ATTIBUTES_GROUP,,GROUP_BY,name,STATS_ATTRS,timeRecord,PREPEND_ATTR_NAME_CHOICE,For<space>multiple<space>results<space>only,MIN_ATTR,_min,MAX_ATTR,_max,MEDIAN_ATTR,_median,COUNT_ATTR,_count,NUMERIC_ATTR,_numeric_count,SUM_ATTR,_sum,RANGE_ATTR,_range,MEAN_ATTR,_mean,STDEV_ATTR,_stdev,STDEVP_ATTR,_stdevp,MODE_ATTR,_mode,COMPUTE_HISTOGRAM,NO,HISTO_ATTR,<lt>Unused<gt>    PROCESS_GROUP_BY name    MULTI_PROCESS "NO_PARALLELISM"    GROUPS_ARE_ORDERED Yes INPUT  FEATURE_TYPE AttributeRenamer_2_OUTPUT_0_XZPnkgk0+40=    OUTPUT SUMMARY FEATURE_TYPE StatisticsCalculator_SUMMARY
+# -------------------------------------------------------------------------
+
+INCLUDE [if { {GEOM_AND_ATTRS} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_REFERENCE_INFO ATTRIBUTES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
+
+FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger    INPUT REFERENCER FEATURE_TYPE StatisticsCalculator_SUMMARY    INPUT REFERENCEE FEATURE_TYPE AttributeRenamer_2_OUTPUT_1_/5K/VQuHWx4=    REFERENCE_INFO $(FeatureMerger_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>name<closeparen>,FeatureMerger) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>name<closeparen>,FeatureMerger) AUTO @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_max<closeparen>,FeatureMerger) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>timeRecord<closeparen>,FeatureMerger) AUTO    ATTR_ACCUM_MODE "SUPPLIER_ONLY"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES No    REFERENCEES_FIRST No    REJECT_INVALID_GEOM YES    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_MERGED
+
+# -------------------------------------------------------------------------
+
+MACRO casemac
+INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
+Tcl2 proc StringReplacer_3_12fb8787_949a_4bea_b298_a7504725486237_replacer { findText replaceText invalidValue} {     set attrs [split \"timeRecord\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_3    INPUT  FEATURE_TYPE FeatureMerger_MERGED    OUTPUT FEATURE_TYPE StringReplacer_3_OUTPUT         @Tcl2("StringReplacer_3_12fb8787_949a_4bea_b298_a7504725486237_replacer {Z} {} {_FME_NO_OP_}")
+
+# -------------------------------------------------------------------------
+
+DEFAULT_MACRO DateTimeConverter_3_EXPRESSION_LIST
+DEFAULT_MACRO DateTimeConverter_3_TEST_CLAUSE_LIST
+INCLUDE [    set repairInput {};    if {{NO} eq {YES}} {       set repairInput "<comma>repair";    };    set inFormat {FME|ISO};    if { {ISO} ne {} } {       set inFormat {ISO};       if { [string first "<quote>" $inFormat] != -1 } {          set inFormat [string map {"<quote>" "<backslash><quote>"} $inFormat];       };    };    set outFormat {FME};    if { [string first "<quote>" $outFormat] != -1 } {       set outFormat [string map {"<quote>" "<backslash><quote>"} $outFormat];    };    set parmList {};    set testList {};    set attrs [split {timeRecord} { }];    foreach attr $attrs {       lappend parmList $attr;       set funcAttr $attr;       if { [string first "<quote>" $attr] != -1 }       {          set funcAttr [string map {"<quote>" "<backslash><quote>"} $attr];          append funcAttr "<quote>";          set funcAttr "<quote>$funcAttr";       };       lappend parmList <at>DateTimeFormat<openparen><at>DateTimeParse<openparen><at>Value<openparen>$funcAttr<closeparen><comma><quote>$inFormat<quote>$repairInput<closeparen><comma><quote>$outFormat<quote><closeparen>;       lappend testList "TEST $attr ATTRIBUTE_VALUE_NULL \"\" ENCODED"    };    puts "MACRO DateTimeConverter_3_EXPRESSION_LIST [join $parmList {,}]";    puts "MACRO DateTimeConverter_3_TEST_CLAUSE_LIST [join $testList { }]"; ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeConverter_3_1    INPUT  FEATURE_TYPE StringReplacer_3_OUTPUT    OUTPUT FEATURE_TYPE DateTimeConverter_3__TEST_NULL__         @EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV, $(DateTimeConverter_3_EXPRESSION_LIST), DateTimeConverter_3)
+FACTORY_DEF * TestFactory    FACTORY_NAME DateTimeConverter_3_2    INPUT FEATURE_TYPE DateTimeConverter_3__TEST_NULL__    $(DateTimeConverter_3_TEST_CLAUSE_LIST)    BOOLEAN_OPERATOR OR    OUTPUT FAILED FEATURE_TYPE DateTimeConverter_3_OUTPUT
+
+# -------------------------------------------------------------------------
+
+DEFAULT_MACRO START_DATETIME
+DEFAULT_MACRO END_DATETIME
+DEFAULT_MACRO OPERATOR
+DEFAULT_MACRO YEARS
+DEFAULT_MACRO MONTHS
+DEFAULT_MACRO DAYS
+DEFAULT_MACRO HOURS
+DEFAULT_MACRO MINUTES
+DEFAULT_MACRO SECONDS
+DEFAULT_MACRO ISO_INTERVAL
+DEFAULT_MACRO EXPRESSION
+DEFAULT_MACRO RESULT_TYPE
+DEFAULT_MACRO RESULT_INTERVAL
+DEFAULT_MACRO RESULT_DATETIME
+DEFAULT_MACRO RESULT
+DEFAULT_MACRO DateTimeCalculator_2_EXPRESSION expression
+DEFAULT_MACRO DateTimeCalculator_2_RESULT_ATTR attr
+INCLUDE [    set expression {};    set result_attr {};    if { "DATETIMECALC_1_ADD_INTERVAL" eq "DATETIMECALC_1_ADD_INTERVAL" ||         "DATETIMECALC_1_ADD_INTERVAL" eq "DATETIMECALC_2_ADD_ISO_INTERVAL" } {       set interval {$(ISO_INTERVAL)};       if { "DATETIMECALC_1_ADD_INTERVAL" eq "DATETIMECALC_1_ADD_INTERVAL" } {          set interval {<at>DateTimeIntervalCreate<openparen><quote>0<quote><comma><quote>0<quote><comma><quote>0<quote><comma><quote>0<quote><comma><quote>420<quote><comma><quote>0<quote><closeparen>};       };       set signed_interval $interval;       if { "SUBTRACT" eq "SUBTRACT" } {          set signed_interval <at>DateTimeIntervalNegate<openparen><quote>$interval<quote><closeparen>;       };       set result_attr {hackTime};       set expression <at>DateTimeAdd<openparen><quote>@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>timeRecord<closeparen>,DateTimeCalculator_2)<quote><comma><quote>$signed_interval<quote><closeparen>;    } elseif { "DATETIMECALC_1_ADD_INTERVAL" eq "DATETIMECALC_3_CALCULATE_INTERVAL" } {       set result_attr {$(RESULT_INTERVAL)};       set expression {<at>DateTimeDiff<openparen><quote>$(END_DATETIME)<quote><comma><quote>@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>timeRecord<closeparen>,DateTimeCalculator_2)<quote><comma><quote>$(RESULT_TYPE)<quote><closeparen>};    } elseif { "DATETIMECALC_1_ADD_INTERVAL" eq "DATETIMECALC_4_EXPRESSION" } {       set result_attr {$(RESULT)};       set expression {$(EXPRESSION)};    };    puts "MACRO DateTimeCalculator_2_EXPRESSION $expression";    puts "MACRO DateTimeCalculator_2_RESULT_ATTR $result_attr"; ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeCalculator_2_1    INPUT  FEATURE_TYPE DateTimeConverter_3_OUTPUT    OUTPUT FEATURE_TYPE __TEST_NULL__       @EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,$(DateTimeCalculator_2_RESULT_ATTR),"$(DateTimeCalculator_2_EXPRESSION)",DateTimeCalculator_2)
+FACTORY_DEF * TestFactory    FACTORY_NAME DateTimeCalculator_2_2    INPUT FEATURE_TYPE __TEST_NULL__    TEST "$(DateTimeCalculator_2_RESULT_ATTR)" ATTRIBUTE_VALUE_NULL "" ENCODED    OUTPUT FAILED FEATURE_TYPE DateTimeCalculator_2_OUTPUT
+
+# -------------------------------------------------------------------------
+
+DEFAULT_MACRO START_DATETIME
+DEFAULT_MACRO END_DATETIME
+DEFAULT_MACRO OPERATOR
+DEFAULT_MACRO YEARS
+DEFAULT_MACRO MONTHS
+DEFAULT_MACRO DAYS
+DEFAULT_MACRO HOURS
+DEFAULT_MACRO MINUTES
+DEFAULT_MACRO SECONDS
+DEFAULT_MACRO ISO_INTERVAL
+DEFAULT_MACRO EXPRESSION
+DEFAULT_MACRO RESULT_TYPE
+DEFAULT_MACRO RESULT_INTERVAL
+DEFAULT_MACRO RESULT_DATETIME
+DEFAULT_MACRO RESULT
+DEFAULT_MACRO DateTimeCalculator_EXPRESSION expression
+DEFAULT_MACRO DateTimeCalculator_RESULT_ATTR attr
+INCLUDE [    set expression {};    set result_attr {};    if { "DATETIMECALC_3_CALCULATE_INTERVAL" eq "DATETIMECALC_1_ADD_INTERVAL" ||         "DATETIMECALC_3_CALCULATE_INTERVAL" eq "DATETIMECALC_2_ADD_ISO_INTERVAL" } {       set interval {$(ISO_INTERVAL)};       if { "DATETIMECALC_3_CALCULATE_INTERVAL" eq "DATETIMECALC_1_ADD_INTERVAL" } {          set interval {<at>DateTimeIntervalCreate<openparen><quote>$(YEARS)<quote><comma><quote>$(MONTHS)<quote><comma><quote>$(DAYS)<quote><comma><quote>$(HOURS)<quote><comma><quote>$(MINUTES)<quote><comma><quote>$(SECONDS)<quote><closeparen>};       };       set signed_interval $interval;       if { "$(OPERATOR)" eq "SUBTRACT" } {          set signed_interval <at>DateTimeIntervalNegate<openparen><quote>$interval<quote><closeparen>;       };       set result_attr {$(RESULT_DATETIME)};       set expression <at>DateTimeAdd<openparen><quote>@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>hackTime<closeparen>,DateTimeCalculator)<quote><comma><quote>$signed_interval<quote><closeparen>;    } elseif { "DATETIMECALC_3_CALCULATE_INTERVAL" eq "DATETIMECALC_3_CALCULATE_INTERVAL" } {       set result_attr {timeSincePresent};       set expression {<at>DateTimeDiff<openparen><quote>@EvaluateExpression(FDIV,STRING_ENCODED,<at>DateTimeNow<openparen><closeparen>,DateTimeCalculator)<quote><comma><quote>@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>hackTime<closeparen>,DateTimeCalculator)<quote><comma><quote>MINUTES<quote><closeparen>};    } elseif { "DATETIMECALC_3_CALCULATE_INTERVAL" eq "DATETIMECALC_4_EXPRESSION" } {       set result_attr {$(RESULT)};       set expression {$(EXPRESSION)};    };    puts "MACRO DateTimeCalculator_EXPRESSION $expression";    puts "MACRO DateTimeCalculator_RESULT_ATTR $result_attr"; ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeCalculator_1    INPUT  FEATURE_TYPE DateTimeCalculator_2_OUTPUT    OUTPUT FEATURE_TYPE __TEST_NULL__       @EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,$(DateTimeCalculator_RESULT_ATTR),"$(DateTimeCalculator_EXPRESSION)",DateTimeCalculator)
+FACTORY_DEF * TestFactory    FACTORY_NAME DateTimeCalculator_2    INPUT FEATURE_TYPE __TEST_NULL__    TEST "$(DateTimeCalculator_RESULT_ATTR)" ATTRIBUTE_VALUE_NULL "" ENCODED    OUTPUT FAILED FEATURE_TYPE DateTimeCalculator_OUTPUT
+
+# -------------------------------------------------------------------------
+
+DEFAULT_MACRO DateTimeConverter_4_EXPRESSION_LIST
+DEFAULT_MACRO DateTimeConverter_4_TEST_CLAUSE_LIST
+INCLUDE [    set repairInput {};    if {{NO} eq {YES}} {       set repairInput "<comma>repair";    };    set inFormat {FME|ISO};    if { {FME} ne {} } {       set inFormat {FME};       if { [string first "<quote>" $inFormat] != -1 } {          set inFormat [string map {"<quote>" "<backslash><quote>"} $inFormat];       };    };    set outFormat {ISO};    if { [string first "<quote>" $outFormat] != -1 } {       set outFormat [string map {"<quote>" "<backslash><quote>"} $outFormat];    };    set parmList {};    set testList {};    set attrs [split {timeRecord} { }];    foreach attr $attrs {       lappend parmList $attr;       set funcAttr $attr;       if { [string first "<quote>" $attr] != -1 }       {          set funcAttr [string map {"<quote>" "<backslash><quote>"} $attr];          append funcAttr "<quote>";          set funcAttr "<quote>$funcAttr";       };       lappend parmList <at>DateTimeFormat<openparen><at>DateTimeParse<openparen><at>Value<openparen>$funcAttr<closeparen><comma><quote>$inFormat<quote>$repairInput<closeparen><comma><quote>$outFormat<quote><closeparen>;       lappend testList "TEST $attr ATTRIBUTE_VALUE_NULL \"\" ENCODED"    };    puts "MACRO DateTimeConverter_4_EXPRESSION_LIST [join $parmList {,}]";    puts "MACRO DateTimeConverter_4_TEST_CLAUSE_LIST [join $testList { }]"; ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeConverter_4_1    INPUT  FEATURE_TYPE DateTimeCalculator_OUTPUT    OUTPUT FEATURE_TYPE DateTimeConverter_4__TEST_NULL__         @EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV, $(DateTimeConverter_4_EXPRESSION_LIST), DateTimeConverter_4)
+FACTORY_DEF * TestFactory    FACTORY_NAME DateTimeConverter_4_2    INPUT FEATURE_TYPE DateTimeConverter_4__TEST_NULL__    $(DateTimeConverter_4_TEST_CLAUSE_LIST)    BOOLEAN_OPERATOR OR    OUTPUT FAILED FEATURE_TYPE DateTimeConverter_4_OUTPUT
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC DateTimeConverter_4_OUTPUT TO ARCGISONLINEFEATURES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Latest_Location<closeparen> GEOMETRY    ROUTE FME_GENERIC FeatureMerger_2_UNUSED_SUPPLIER TO ARCGISONLINEFEATURES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Location<lt>space<gt>Tracking<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+ARCGISONLINEFEATURES_3_DEF "Location Tracking"   arcgisonline_type            arcgisonline_point   arcgisonline_mode            INSERT   arcgisonline_truncate_layer  NO   device                       esriFieldTypeString(200)   name                         esriFieldTypeString(254)   foreign_pk                   esriFieldTypeString(200)   course                       esriFieldTypeDouble   timeRecord                   esriFieldTypeDate
+# -------------------------------------------------------------------------
+ARCGISONLINEFEATURES_4_DEF Latest_Location   arcgisonline_type            arcgisonline_point   arcgisonline_mode            INSERT   arcgisonline_truncate_layer  YES   name                         esriFieldTypeString(256)   timeRecord                   esriFieldTypeDate   course                       esriFieldTypeDouble   device                       esriFieldTypeString(256)   foreign_pk                   esriFieldTypeString(256)   timeSincePresent             esriFieldTypeInteger
