@@ -1,6 +1,6 @@
 <kml xmlns="http://earth.google.com/kml/2.0">
   <Placemark>
-   <name>Bora-Bora Airport</name>
+   <name>Another Airport</name>
    <Point>
      <coordinates>-151.752044,-16.443118</coordinates>
    </Point>
