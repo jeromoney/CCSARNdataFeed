@@ -1,6 +1,6 @@
 <kml xmlns="http://earth.google.com/kml/2.0">
   <Placemark>
-   <name>Another Airport</name>
+   <name>Another Airport v2</name>
    <Point>
      <coordinates>-151.752044,-16.443118</coordinates>
    </Point>
