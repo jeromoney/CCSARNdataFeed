@@ -1,8 +1,287 @@
-<kml xmlns="http://earth.google.com/kml/2.0">
-  <Placemark>
-   <name>Another Airport v3</name>
-   <Point>
-     <coordinates>-151.752044,-16.443118</coordinates>
-   </Point>
-  </Placemark>
-</kml>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>combinedfile</name>
+<visibility>1</visibility>
+<Folder id="kml_id_ChaffeeCountySARNorth_1.1.9">
+<name>kml_id_ChaffeeCountySARNorth_1.1.9</name>
+<Placemark id="kml_23">
+<name>CCSAR North 2</name>
+<visibility>true</visibility>
+<description><![CDATA[CCSAR North 2's track log]]></description>
+<Style>
+<IconStyle>
+<color>ff78780f</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<LineStyle>
+<color>ff78780f</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>ff78780f</color>
+</PolyStyle>
+</Style>
+<Point>
+<coordinates>-106.334481,38.815083,3039.95</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_23">
+<name>CCSAR North 2</name>
+<visibility>true</visibility>
+<description><![CDATA[CCSAR North 2's track log]]></description>
+<Style>
+<IconStyle>
+<scale>0.8</scale>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<LineStyle>
+<color>ff78780f</color>
+<width>1.0</width>
+<gx:labelVisibility>0</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>6678780f</color>
+</PolyStyle>
+</Style>
+<LineString>
+<tessellate>true</tessellate>
+<coordinates>-106.136426,38.822315,2451.98 -106.176188,38.824191,3003.71 -106.317936,38.838536,4122.35 -106.32371,38.8402,3835.13 -106.323966,38.840168,3835.13 -106.325125,38.840091,3818.18 -106.325061,38.839963,3838.53 -106.325791,38.839116,3784.4 -106.326326,38.838471,3740.73 -106.327936,38.838665,3693.98 -106.328816,38.839556,3684.01 -106.329223,38.84124,3637.63 -106.32976,38.841605,3614.56 -106.332786,38.840393,3542.52 -106.33343,38.839566,3474.44 -106.333901,38.83859,3429.42 -106.335146,38.834825,3365.6 -106.338128,38.831338,3321.28 -106.342185,38.830136,3283.51 -106.338343,38.825898,3202.39 -106.335296,38.820458,3159.1 -106.334481,38.815083,3039.95</coordinates>
+</LineString>
+</Placemark>
+</Folder>
+<Folder id="kml_id_HeathWharton_1.1.6">
+<name>kml_id_HeathWharton_1.1.6</name>
+<Placemark id="kml_85">
+<name>#2 Spring Canyon</name>
+<visibility>true</visibility>
+<description><![CDATA[#2 Spring Canyon's track log]]></description>
+<Style>
+<IconStyle>
+<color>ffab7e6f</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<LineStyle>
+<color>ffab7e6f</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>ffab7e6f</color>
+</PolyStyle>
+</Style>
+<Point>
+<coordinates>-106.247448,38.805846,2729.3</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_85">
+<name>#2 Spring Canyon</name>
+<visibility>true</visibility>
+<description><![CDATA[#2 Spring Canyon's track log]]></description>
+<Style>
+<IconStyle>
+<scale>0.8</scale>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<LineStyle>
+<color>ffab7e6f</color>
+<width>1.0</width>
+<gx:labelVisibility>0</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>66ab7e6f</color>
+</PolyStyle>
+</Style>
+<LineString>
+<tessellate>true</tessellate>
+<coordinates>-106.245711,38.79721,2660.29 -106.246226,38.800063,2743.77 -106.287531,38.813646,2869.51 -106.334416,38.814965,3018.78 -106.334416,38.81489,3018.78 -106.334481,38.816725,3082.48 -106.334223,38.818388,3119.15 -106.335361,38.821016,3143.7 -106.335918,38.823408,3156.02 -106.337635,38.825296,3186.89 -106.339545,38.82665,3208.59 -106.341798,38.82857,3242.83 -106.342163,38.829138,3267.83 -106.342098,38.83064,3302.37 -106.34034,38.831853,3318.12 -106.339266,38.83167,3333.91 -106.337571,38.832045,3356.08 -106.336541,38.833858,3378.32 -106.335018,38.83505,3384.69 -106.334503,38.836401,3407.02 -106.33401,38.837818,3439.04 -106.333945,38.839276,3461.55 -106.333495,38.839501,3503.54 -106.332571,38.840511,3568.63 -106.331305,38.840768,3578.45 -106.330576,38.841251,3614.56 -106.329331,38.841658,3657.47 -106.328816,38.847398,2660.29 -106.32901,38.840736,3650.85 -106.328751,38.840188,3670.73 -106.328065,38.83946,3710.64 -106.327271,38.839706,3737.38 -106.326113,38.839963,3797.9 -106.325018,38.839695,3821.57 -106.323966,38.840243,3852.12 -106.323923,38.840393,3855.52 -106.322593,38.84124,3910.18 -106.322015,38.841938,3923.9 -106.32107,38.842731,3958.34 -106.321091,38.842935,3965.24 -106.320448,38.844136,4003.34 -106.320018,38.844501,4027.69 -106.318925,38.845006,4094.17 -106.318966,38.844953,4094.17 -106.318216,38.845843,4041.63 -106.318216,38.845585,4154.17 -106.319246,38.844953,4045.13 -106.319203,38.845006,4041.63 -106.320083,38.844341,4027.69 -106.320491,38.844201,4010.29 -106.321113,38.843428,3982.53 -106.32165,38.842463,3968.7 -106.322228,38.841691,3906.75 -106.32356,38.840918,3893.05 -106.324546,38.840028,3841.92 -106.325168,38.840081,3855.52 -106.325811,38.83918,3797.9 -106.326285,38.838633,3757.49 -106.328086,38.838826,3700.64 -106.328816,38.839213,3687.33 -106.32873,38.84034,3667.41 -106.32916,38.841293,3640.94 -106.329738,38.841723,3627.74 -106.330898,38.841121,3591.56 -106.332808,38.840371,3558.83 -106.333086,38.840038,3529.51 -106.333945,38.839276,3471.22 -106.333945,38.838986,3455.11 -106.33403,38.837678,3442.26 -106.33491,38.835458,3391.06 -106.336176,38.834276,3416.61 -106.337506,38.832421,3349.74 -106.339523,38.831723,3337.08 -106.342013,38.83122,3324.43 -106.342206,38.82917,3267.83 -106.339996,38.82725,3245.95 -106.337378,38.824793,3202.39 -106.33534,38.822068,3140.63 -106.334566,38.81929,3122.21 -106.33431,38.816618,3106.9 -106.334481,38.815051,3036.92 -106.334331,38.814858,3103.85 -106.311478,38.810706,2943.73 -106.247448,38.805846,2729.3</coordinates>
+</LineString>
+</Placemark>
+</Folder>
+<Folder id="kml_id_JoshSchwenzfeier_1.1.6">
+<name>kml_id_JoshSchwenzfeier_1.1.6</name>
+<Placemark id="kml_77">
+<name>Joshua Schwenzfeier</name>
+<visibility>true</visibility>
+<description><![CDATA[Joshua Schwenzfeier's track log]]></description>
+<Style>
+<IconStyle>
+<color>ff61421f</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<LineStyle>
+<color>ff61421f</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>ff61421f</color>
+</PolyStyle>
+</Style>
+<Point>
+<coordinates>-106.37583,38.803968,3264.7</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_77">
+<name>Joshua Schwenzfeier</name>
+<visibility>true</visibility>
+<description><![CDATA[Joshua Schwenzfeier's track log]]></description>
+<Style>
+<IconStyle>
+<scale>0.8</scale>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<LineStyle>
+<color>ff61421f</color>
+<width>1.0</width>
+<gx:labelVisibility>0</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>6661421f</color>
+</PolyStyle>
+</Style>
+<LineString>
+<tessellate>true</tessellate>
+<coordinates>-111.186383,37.463131,1418.91 -111.181683,37.461586,1397.63 -111.177135,37.461598,1374.07 -111.173745,37.462285,1364.66 -111.174881,37.463496,1392.91 -111.177885,37.464558,1411.81 -111.180631,37.466468,1418.91 -111.182326,37.46604,1428.39 -111.186748,37.463368,1418.91 -111.186661,37.463475,1423.65 -111.188958,37.463486,1421.28 -111.21666,37.465878,1464.05 -111.159238,37.417738,1383.48 -111.124628,37.366336,1437.88 -111.10375,37.357238,1404.72 -111.069416,37.332015,1338.86 -111.038496,37.304741,1313.16 -111.02369,37.290248,1282.9 -111.026951,37.289325,1292.2 -111.025815,37.289506,1296.85 -111.014828,37.277255,1310.83 -110.994786,37.259723,1331.84 -110.969081,37.254478,1280.58 -110.955155,37.255346,1310.83 -110.926358,37.260808,1317.83 -110.900953,37.256483,1301.51 -110.900953,37.256441,1294.53 -110.90297,37.257278,1308.5 -110.936165,37.260786,1336.52 -110.957408,37.253726,1301.51 -110.970561,37.252331,1289.87 -110.987791,37.257921,1341.2 -111.00586,37.276331,1294.53 -111.020193,37.29189,1282.9 -111.04296,37.30648,1289.87 -111.073108,37.33562,1336.52 -111.101496,37.352796,1409.45 -111.132201,37.384833,1383.48 -111.17971,37.433241,1409.45 -111.213891,37.464913,1447.39 -111.197733,37.466318,1442.63 -111.186705,37.463368,1421.28 -111.186768,37.463356,1421.28 -111.186705,37.463346,1411.81 -111.186683,37.463336,1418.91 -111.186726,37.463368,1414.18 -111.186705,37.463368,1418.91 -111.188056,37.463496,1409.45 -111.21741,37.46604,1466.44 -111.181748,37.434668,1416.55 -111.133811,37.386325,1388.2 -111.101303,37.372666,1421.28 -111.051565,37.390283,1445.01 -111.048666,37.392396,1447.39 -111.04871,37.392386,1449.77 -111.048688,37.392386,1452.15 -106.335533,38.814815,3018.78 -106.336433,38.814761,3036.92 -106.380851,38.803496,3289.79 -106.405398,38.822475,3581.73 -106.40572,38.824128,3598.12 -106.405356,38.822433,3571.9 -106.405913,38.823205,3604.69 -106.407073,38.826756,3640.94 -106.4063,38.823838,3591.56 -106.409776,38.819375,3631.03 -106.410098,38.818795,3637.63 -106.411471,38.81828,3664.1 -106.41012,38.818163,3634.33 -106.41042,38.818173,3640.94 -106.409131,38.818485,3627.74 -106.409111,38.818603,3640.94 -106.409861,38.817873,3634.33 -106.409861,38.812626,3621.14 -106.406278,38.824063,3594.84 -106.37583,38.803968,3264.7</coordinates>
+</LineString>
+</Placemark>
+</Folder>
+<Folder id="kml_id_ScottAndersonBV_1.1.6">
+<name>kml_id_ScottAndersonBV_1.1.6</name>
+<Placemark id="kml_50">
+<name>Scott Anderson</name>
+<visibility>true</visibility>
+<description><![CDATA[Scott Anderson's track log]]></description>
+<Style>
+<IconStyle>
+<color>ff48ad7b</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<LineStyle>
+<color>ff48ad7b</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>ff48ad7b</color>
+</PolyStyle>
+</Style>
+<Point>
+<coordinates>-106.334566,38.815083,3006.72</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_50">
+<name>Scott Anderson</name>
+<visibility>true</visibility>
+<description><![CDATA[Scott Anderson's track log]]></description>
+<Style>
+<IconStyle>
+<scale>0.8</scale>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<LineStyle>
+<color>ff48ad7b</color>
+<width>1.0</width>
+<gx:labelVisibility>0</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>6648ad7b</color>
+</PolyStyle>
+</Style>
+<LineString>
+<tessellate>true</tessellate>
+<coordinates>-106.505133,39.067983,3042.98 -106.50507,39.067865,3097.73 -106.505713,39.066931,3103.85 -106.504876,39.06321,3106.9 -106.508588,39.059615,3140.63 -106.511356,39.056171,3152.94 -106.511615,39.05512,3137.56 -106.514253,39.051761,3156.02 -106.517321,39.048565,3168.35 -106.521378,39.046321,3183.8 -106.524596,39.045163,3186.89 -106.529466,39.043393,3196.18 -106.533221,39.042675,3221.02 -106.53318,39.042641,3221.02 -106.531591,39.042803,3211.7 -106.52612,39.04467,3193.09 -106.519853,39.047233,3174.53 -106.515026,39.05055,3159.1 -106.5114,39.05542,3146.78 -106.507386,39.060956,3134.49 -106.504941,39.065666,3082.48 -106.334503,38.814976,3024.82 -106.334566,38.814976,3033.89 -106.333838,38.817476,3103.85 -106.33521,38.822068,3156.02 -106.339395,38.826606,3214.8 -106.341411,38.82828,3245.95 -106.344438,38.830683,3308.67 -106.347376,38.832281,3343.41 -106.34787,38.832335,3327.59 -106.351175,38.833633,3375.14 -106.352698,38.834298,3349.74 -106.353986,38.83387,3461.55 -106.355745,38.83418,3461.55 -106.357998,38.834588,3461.55 -106.359865,38.834191,3484.13 -106.36156,38.833741,3497.06 -106.364436,38.832636,3500.3 -106.36553,38.832088,3497.06 -106.362333,38.83314,3493.83 -106.361025,38.834126,3500.3 -106.356796,38.834513,3461.55 -106.351368,38.833708,3387.87 -106.347978,38.832388,3337.08 -106.346411,38.832528,3321.28 -106.340811,38.827796,3242.83 -106.335275,38.82196,3140.63 -106.334566,38.815373,3033.89 -106.334566,38.815083,3006.72</coordinates>
+</LineString>
+</Placemark>
+</Folder>
+<Folder id="kml_id_mhammond_1.1.6">
+<name>kml_id_mhammond_1.1.6</name>
+<Placemark id="kml_30">
+<name>Michael Hammond</name>
+<visibility>true</visibility>
+<description><![CDATA[Michael Hammond's track log]]></description>
+<Style>
+<IconStyle>
+<color>ff336779</color>
+<scale>0.8</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+</Icon>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<LineStyle>
+<color>ff336779</color>
+<width>1.0</width>
+<gx:labelVisibility>1</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>ff336779</color>
+</PolyStyle>
+</Style>
+<Point>
+<coordinates>-106.334738,38.814858,3027.85</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_30">
+<name>Michael Hammond</name>
+<visibility>true</visibility>
+<description><![CDATA[Michael Hammond's track log]]></description>
+<Style>
+<IconStyle>
+<scale>0.8</scale>
+</IconStyle>
+<LabelStyle>
+<scale>1.0</scale>
+</LabelStyle>
+<LineStyle>
+<color>ff336779</color>
+<width>1.0</width>
+<gx:labelVisibility>0</gx:labelVisibility>
+</LineStyle>
+<PolyStyle>
+<color>66336779</color>
+</PolyStyle>
+</Style>
+<LineString>
+<tessellate>true</tessellate>
+<coordinates>-106.136663,38.822786,2438.14 -106.13647,38.822646,2391.31 -106.279936,38.823151,4031.17 -106.323816,38.840221,3855.52 -106.323816,38.840296,3852.12 -106.323216,38.841155,3889.63 -106.322078,38.843161,3951.44 -106.320448,38.844298,4003.34 -106.320083,38.844501,4027.69 -106.321005,38.843965,3992.93 -106.3218,38.841895,3927.34 -106.323945,38.840168,3855.52 -106.325105,38.839996,3838.53 -106.325083,38.840028,3818.18 -106.326176,38.838998,3764.21 -106.326628,38.838043,3717.32 -106.32843,38.839061,3690.66 -106.328838,38.839931,3680.69 -106.32961,38.841755,3624.44 -106.330425,38.841315,3598.12 -106.333301,38.840425,3536.01 -106.333838,38.839105,3455.11 -106.334288,38.837216,3426.22 -106.336735,38.833655,3365.6 -106.340253,38.831745,3321.28 -106.341798,38.828645,3258.45 -106.33682,38.824321,3202.39 -106.334095,38.818613,3116.08 -106.334738,38.814858,3027.85</coordinates>
+</LineString>
+</Placemark>
+</Folder>
+</Document></kml>
